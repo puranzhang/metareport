@@ -1,0 +1,722 @@
+time,company,country,requests,approved
+2013H1,facebook,Albania,6,0.83
+2013H1,facebook,Argentina,152,0.27
+2013H1,facebook,Australia,546,0.64
+2013H1,facebook,Austria,35,0.17
+2013H1,facebook,Bangladesh,1,0
+2013H1,facebook,Barbados,3,0
+2013H1,facebook,Belgium,150,0.7
+2013H1,facebook,Bosnia,4,0.25
+2013H1,facebook,Botswana,3,0
+2013H1,facebook,Brazil,715,0.33
+2013H1,facebook,Bulgaria,1,0
+2013H1,facebook,Cambodia,1,0
+2013H1,facebook,Canada,192,0.44
+2013H1,facebook,Chile,215,0.68
+2013H1,facebook,Colombia,27,0.15
+2013H1,facebook,Costa Rica,4,0
+2013H1,facebook,Croatia,2,0
+2013H1,facebook,Cyprus,3,0.33
+2013H1,facebook,Czech Republic,10,0.6
+2013H1,facebook,Denmark,11,0.55
+2013H1,facebook,Ecuador,2,0
+2013H1,facebook,Egypt,8,0
+2013H1,facebook,El Salvador,2,0
+2013H1,facebook,Finland,12,0.75
+2013H1,facebook,France,1547,0.39
+2013H1,facebook,Germany,1886,0.37
+2013H1,facebook,Greece,122,0.54
+2013H1,facebook,Hong Kong,1,1
+2013H1,facebook,Hungary,25,0.36
+2013H1,facebook,Iceland,1,1
+2013H1,facebook,India,3245,0.5
+2013H1,facebook,Ireland,34,0.71
+2013H1,facebook,Israel,113,0.5
+2013H1,facebook,Italy,1705,0.53
+2013H1,facebook,Ivory Coast,4,0
+2013H1,facebook,Japan,1,0
+2013H1,facebook,Lithuania,6,0.17
+2013H1,facebook,Macedonia,9,0.33
+2013H1,facebook,Malaysia,7,0
+2013H1,facebook,Malta,89,0.6
+2013H1,facebook,Mexico,78,0.37
+2013H1,facebook,Mongolia,2,0
+2013H1,facebook,Montenegro,2,0
+2013H1,facebook,Nepal,3,0.33
+2013H1,facebook,Netherlands,11,0.36
+2013H1,facebook,New Zealand,106,0.58
+2013H1,facebook,Norway,16,0.31
+2013H1,facebook,Pakistan,35,0.77
+2013H1,facebook,Panama,2,0
+2013H1,facebook,Peru,13,0.15
+2013H1,facebook,Philippines,4,0.25
+2013H1,facebook,Poland,233,0.09
+2013H1,facebook,Portugal,177,0.42
+2013H1,facebook,Qatar,3,0
+2013H1,facebook,Romania,16,0.63
+2013H1,facebook,Russia,1,0
+2013H1,facebook,Serbia,3,0
+2013H1,facebook,Singapore,107,0.7
+2013H1,facebook,Slovenia,6,0.5
+2013H1,facebook,South Africa,14,0
+2013H1,facebook,South Korea,7,0.14
+2013H1,facebook,Spain,479,0.51
+2013H1,facebook,Sweden,54,0.54
+2013H1,facebook,Switzerland,32,0.13
+2013H1,facebook,Taiwan,229,0.84
+2013H1,facebook,Thailand,2,0
+2013H1,facebook,Turkey,96,0.47
+2013H1,facebook,Uganda,1,0
+2013H1,facebook,UK,1975,0.68
+2013H1,facebook,US,"11,000 - 12,000",0.79
+2013H2,facebook,Albania,6,0.83
+2013H2,facebook,Argentina,278,0.18
+2013H2,facebook,Armenia,1,0
+2013H2,facebook,Australia,603,0.66
+2013H2,facebook,Austria,28,0.14
+2013H2,facebook,Bahrain,1,0
+2013H2,facebook,Bangladesh,,
+2013H2,facebook,Belgium,154,0.65
+2013H2,facebook,Bhutan,1,0
+2013H2,facebook,Bosnia,4,0.5
+2013H2,facebook,Botswana,1,0
+2013H2,facebook,Brazil,1165,0.34
+2013H2,facebook,Bulgaria,2,0.5
+2013H2,facebook,Cambodia,1,0
+2013H2,facebook,Canada,174,0.5
+2013H2,facebook,Chile,230,0.64
+2013H2,facebook,Colombia,21,0.19
+2013H2,facebook,Costa Rica,9,0.11
+2013H2,facebook,Croatia,7,0.43
+2013H2,facebook,Cyprus,3,1
+2013H2,facebook,Czech Republic,14,0.79
+2013H2,facebook,Denmark,12,0.33
+2013H2,facebook,Ecuador,2,0
+2013H2,facebook,Egypt,6,0
+2013H2,facebook,Estonia,6,0.33
+2013H2,facebook,Finland,11,0.64
+2013H2,facebook,France,1661,0.34
+2013H2,facebook,Georgia,3,0.33
+2013H2,facebook,Germany,1687,0.38
+2013H2,facebook,Greece,115,0.5
+2013H2,facebook,Greenland,2,0
+2013H2,facebook,Hong Kong,25,0.88
+2013H2,facebook,Hungary,38,0.29
+2013H2,facebook,India,3598,0.54
+2013H2,facebook,Ireland,35,0.63
+2013H2,facebook,Israel,129,0.51
+2013H2,facebook,Italy,1699,0.53
+2013H2,facebook,Ivory Coast,1,1
+2013H2,facebook,Kazakhstan,2,0
+2013H2,facebook,Kuwait,4,0
+2013H2,facebook,Lebanon,12,0
+2013H2,facebook,Lithuania,9,0.44
+2013H2,facebook,Luxembourg,2,0
+2013H2,facebook,Macau,1,0
+2013H2,facebook,Macedonia,6,0.83
+2013H2,facebook,Malaysia,16,0.19
+2013H2,facebook,Malta,81,0.62
+2013H2,facebook,Mexico,125,0.54
+2013H2,facebook,Nepal,2,0
+2013H2,facebook,Netherlands,23,0.36
+2013H2,facebook,New Zealand,80,0.7
+2013H2,facebook,Norway,15,0.13
+2013H2,facebook,Oman,3,0
+2013H2,facebook,Pakistan,126,0.48
+2013H2,facebook,Palestine,4,0
+2013H2,facebook,Peru,2,0
+2013H2,facebook,Philippines,4,0.5
+2013H2,facebook,Poland,220,0.15
+2013H2,facebook,Portugal,148,0.25
+2013H2,facebook,Qatar,3,0
+2013H2,facebook,Romania,11,0.45
+2013H2,facebook,Russia,1,0
+2013H2,facebook,Serbia,2,1
+2013H2,facebook,Singapore,141,0.71
+2013H2,facebook,Slovenia,3,0.67
+2013H2,facebook,South Africa,3,0
+2013H2,facebook,South Korea,1,0
+2013H2,facebook,Spain,404,0.4
+2013H2,facebook,Sri Lanka,1,0
+2013H2,facebook,Sudan,4,0
+2013H2,facebook,Sweden,89,0.53
+2013H2,facebook,Switzerland,34,0.18
+2013H2,facebook,Taiwan,193,0.72
+2013H2,facebook,Thailand,2,0
+2013H2,facebook,Turkey,129,0.57
+2013H2,facebook,Uganda,1,0
+2013H2,facebook,United Arab Emirates,2,0
+2013H2,facebook,UK,1906,0.71
+2013H2,facebook,US,12598,0.81
+2013H2,facebook,Uruguay,1,0
+2014H1,facebook,Afghanistan,1,0
+2014H1,facebook,Albania,4,0.75
+2014H1,facebook,Argentina,254,0.32
+2014H1,facebook,Armenia,4,0.25
+2014H1,facebook,Australia,610,0.6
+2014H1,facebook,Austria,63,0.17
+2014H1,facebook,Bahrain,1,0
+2014H1,facebook,Bangladesh,7,0
+2014H1,facebook,Belgium,209,0.57
+2014H1,facebook,Bosnia,6,0.67
+2014H1,facebook,Botswana,1,0
+2014H1,facebook,Brazil,1307,0.35
+2014H1,facebook,Brunei,1,0
+2014H1,facebook,Bulgaria,3,1
+2014H1,facebook,Canada,263,0.54
+2014H1,facebook,Chile,307,0.5
+2014H1,facebook,Colombia,52,0.38
+2014H1,facebook,Costa Rica,3,0
+2014H1,facebook,Croatia,19,0.79
+2014H1,facebook,Cyprus,13,0.69
+2014H1,facebook,Czech Republic,11,0.27
+2014H1,facebook,Denmark,15,0.4
+2014H1,facebook,Dominican Republic,11,0.27
+2014H1,facebook,Ecuador,1,0
+2014H1,facebook,Egypt,5,0.2
+2014H1,facebook,Estonia,7,0.43
+2014H1,facebook,Finland,28,0.43
+2014H1,facebook,France,2249,0.3
+2014H1,facebook,Georgia,1,0
+2014H1,facebook,Germany,2537,0.34
+2014H1,facebook,Greece,128,0.56
+2014H1,facebook,Greenland,3,0
+2014H1,facebook,Guatemala,1,0
+2014H1,facebook,Hong Kong,20,0.6
+2014H1,facebook,Hungary,57,0.33
+2014H1,facebook,Iceland,2,0.5
+2014H1,facebook,India,4559,0.51
+2014H1,facebook,Ireland,54,0.61
+2014H1,facebook,Israel,111,0.51
+2014H1,facebook,Italy,1869,0.49
+2014H1,facebook,Japan,2,0
+2014H1,facebook,Kuwait,4,0
+2014H1,facebook,Liechtenstein,1,0
+2014H1,facebook,Lithuania,8,0.38
+2014H1,facebook,Luxembourg,4,0.25
+2014H1,facebook,Macedonia,10,0.4
+2014H1,facebook,Malaysia,19,0.26
+2014H1,facebook,Malta,85,0.62
+2014H1,facebook,Mexico,170,0.51
+2014H1,facebook,Moldova,3,1
+2014H1,facebook,Monaco,1,1
+2014H1,facebook,Montenegro,2,0
+2014H1,facebook,Nepal,2,0
+2014H1,facebook,Netherlands,41,0.56
+2014H1,facebook,New Zealand,81,3
+2014H1,facebook,Norway,25,0.4
+2014H1,facebook,Oman,1,0
+2014H1,facebook,Pakistan,116,0.35
+2014H1,facebook,Palestine,1,0
+2014H1,facebook,Paraguay,1,0
+2014H1,facebook,Peru,12,0.17
+2014H1,facebook,Philippines,6,0.83
+2014H1,facebook,Poland,288,0.27
+2014H1,facebook,Portugal,354,0.4
+2014H1,facebook,Qatar,2,0
+2014H1,facebook,Romania,16,0.5
+2014H1,facebook,Russia,0,0
+2014H1,facebook,Saudi Arabia,0,0
+2014H1,facebook,Senegal,1,0
+2014H1,facebook,Singapore,129,0.76
+2014H1,facebook,South Africa,2,0
+2014H1,facebook,South Korea,13,0.23
+2014H1,facebook,Spain,514,0.37
+2014H1,facebook,Sudan,1,0
+2014H1,facebook,Sweden,247,0.81
+2014H1,facebook,Switzerland,32,0.25
+2014H1,facebook,Taiwan,252,0.57
+2014H1,facebook,Thailand,1,0
+2014H1,facebook,Turkey,153,0.61
+2014H1,facebook,United Arab Emirates,6,0
+2014H1,facebook,UK,2110,0.72
+2014H1,facebook,US,15433,0.8
+2014H2,facebook,Afghanistan,1,0
+2014H2,facebook,Albania,16,0.25
+2014H2,facebook,Algeria,1,0
+2014H2,facebook,Andorra,3,0.33
+2014H2,facebook,Argentina,482,0.49
+2014H2,facebook,Armenia,1,0
+2014H2,facebook,Australia,829,0.69
+2014H2,facebook,Austria,46,0.11
+2014H2,facebook,Bahrain,3,0
+2014H2,facebook,Bangladesh,5,0
+2014H2,facebook,Belgium,239,0.59
+2014H2,facebook,Bosnia,5,0.8
+2014H2,facebook,Brazil,1212,0.34
+2014H2,facebook,Canada,279,0.58
+2014H2,facebook,Chile,288,0.61
+2014H2,facebook,Colombia,67,0.55
+2014H2,facebook,Costa Rica,1,0
+2014H2,facebook,Croatia,21,0.81
+2014H2,facebook,Cyprus,20,0.6
+2014H2,facebook,Czech Republic,22,0.55
+2014H2,facebook,Denmark,31,0.35
+2014H2,facebook,Dominican Republic,22,0.41
+2014H2,facebook,Ecuador,2,0
+2014H2,facebook,Egypt,5,0
+2014H2,facebook,Estonia,6,0.67
+2014H2,facebook,Finland,18,0.72
+2014H2,facebook,France,2094,0.42
+2014H2,facebook,Germany,2132,0.34
+2014H2,facebook,Greece,117,0.57
+2014H2,facebook,Greenland,1,1
+2014H2,facebook,Hong Kong,39,0.41
+2014H2,facebook,Hungary,128,0.34
+2014H2,facebook,India,5473,0.45
+2014H2,facebook,Indonesia,5,0.4
+2014H2,facebook,Ireland,34,0.71
+2014H2,facebook,Israel,232,0.47
+2014H2,facebook,Italy,1774,0.46
+2014H2,facebook,Japan,9,0.11
+2014H2,facebook,Jordan,3,0.33
+2014H2,facebook,Kazakhstan,2,0
+2014H2,facebook,Kenya,2,0
+2014H2,facebook,Kuwait,4,0
+2014H2,facebook,Liechtenstein,2,0.5
+2014H2,facebook,Lithuania,12,0.42
+2014H2,facebook,Luxembourg,1,1
+2014H2,facebook,Macau,1,0
+2014H2,facebook,Macedonia,5,0.2
+2014H2,facebook,Malaysia,17,0.24
+2014H2,facebook,Maldives,3,0.67
+2014H2,facebook,Malta,93,0.71
+2014H2,facebook,Mexico,260,0.62
+2014H2,facebook,Moldova,4,0.25
+2014H2,facebook,Montenegro,4,0.25
+2014H2,facebook,Myanmar,0,0
+2014H2,facebook,Nepal,2,0
+2014H2,facebook,Netherlands,76,0.64
+2014H2,facebook,New Zealand,139,0.63
+2014H2,facebook,Norway,21,0.48
+2014H2,facebook,Pakistan,100,0.42
+2014H2,facebook,Paraguay,2,0
+2014H2,facebook,Peru,10,0.5
+2014H2,facebook,Philippines,7,0.86
+2014H2,facebook,Poland,305,0.3
+2014H2,facebook,Portugal,305,0.35
+2014H2,facebook,Romania,14,0.43
+2014H2,facebook,Russia,2,0
+2014H2,facebook,Senegal,1,0
+2014H2,facebook,Serbia,25,0.56
+2014H2,facebook,Singapore,177,0.75
+2014H2,facebook,Slovakia,5,0.2
+2014H2,facebook,Slovenia,3,0.33
+2014H2,facebook,South Africa,2,0.5
+2014H2,facebook,South Korea,14,0.43
+2014H2,facebook,Spain,500,0.37
+2014H2,facebook,Sudan,2,0
+2014H2,facebook,Sweden,213,0.76
+2014H2,facebook,Switzerland,39,0.1
+2014H2,facebook,Taiwan,204,0.56
+2014H2,facebook,Thailand,3,0
+2014H2,facebook,Tunisia,2,0
+2014H2,facebook,Turkey,165,0.71
+2014H2,facebook,Ukraine,1,0
+2014H2,facebook,United Arab Emirates,2,0
+2014H2,facebook,UK,2366,0.75
+2014H2,facebook,US,14274,0.79
+2014H2,facebook,Uruguay,2,0
+2015H1,facebook,Albania,8,0.88
+2015H1,facebook,Andorra,2,0
+2015H1,facebook,Argentina,568,0.46
+2015H1,facebook,Armenia,5,0.8
+2015H1,facebook,Australia,693,0.65
+2015H1,facebook,Austria,58,0.36
+2015H1,facebook,Bangladesh,3,0
+2015H1,facebook,Belgium,281,0.69
+2015H1,facebook,Bosnia,17,0.24
+2015H1,facebook,Botswana,2,0
+2015H1,facebook,Brazil,1265,0.4
+2015H1,facebook,Brunei,2,0.5
+2015H1,facebook,Bulgaria,2,1
+2015H1,facebook,Cambodia,1,0
+2015H1,facebook,Canada,410,0.79
+2015H1,facebook,Chile,310,0.52
+2015H1,facebook,China,0,0
+2015H1,facebook,Colombia,125,0.49
+2015H1,facebook,Costa Rica,1,0
+2015H1,facebook,Croatia,18,0.44
+2015H1,facebook,Cyprus,8,0.13
+2015H1,facebook,Czech Republic,34,0.74
+2015H1,facebook,Denmark,49,0.39
+2015H1,facebook,Dominican Republic,80,0.54
+2015H1,facebook,Ecuador,13,0.69
+2015H1,facebook,Egypt,2,0
+2015H1,facebook,Estonia,14,0.57
+2015H1,facebook,Finland,16,0.81
+2015H1,facebook,France,2520,0.43
+2015H1,facebook,Germany,2344,0.36
+2015H1,facebook,Greece,162,0.66
+2015H1,facebook,Guatemala,1,1
+2015H1,facebook,Hong Kong,71,0.46
+2015H1,facebook,Hungary,185,0.36
+2015H1,facebook,Iceland,1,1
+2015H1,facebook,India,5115,0.45
+2015H1,facebook,Indonesia,8,0.13
+2015H1,facebook,Iraq,1,1
+2015H1,facebook,Ireland,20,0.6
+2015H1,facebook,Israel,174,0.63
+2015H1,facebook,Italy,1816,0.49
+2015H1,facebook,Japan,9,0.22
+2015H1,facebook,Jordan,7,0.14
+2015H1,facebook,Kazakhstan,2,0
+2015H1,facebook,Kenya,5,0.2
+2015H1,facebook,Kuwait,3,0.33
+2015H1,facebook,Lebanon,2,0
+2015H1,facebook,Liechtenstein,3,0.33
+2015H1,facebook,Lithuania,34,0.5
+2015H1,facebook,Luxembourg,5,0.2
+2015H1,facebook,Macedonia,10,0.3
+2015H1,facebook,Malaysia,4,0.75
+2015H1,facebook,Maldives,3,0
+2015H1,facebook,Malta,152,0.71
+2015H1,facebook,Mexico,313,0.61
+2015H1,facebook,Moldova,5,0.2
+2015H1,facebook,Monaco,1,0
+2015H1,facebook,Mongolia,3,0
+2015H1,facebook,Montenegro,3,0.67
+2015H1,facebook,Nauru,1,0
+2015H1,facebook,Netherlands,113,0.66
+2015H1,facebook,New Zealand,146,0.68
+2015H1,facebook,Norway,26,0.62
+2015H1,facebook,Pakistan,192,0.58
+2015H1,facebook,Panama,1,0
+2015H1,facebook,Peru,18,0.56
+2015H1,facebook,Philippines,5,0.8
+2015H1,facebook,Poland,492,0.34
+2015H1,facebook,Portugal,488,0.36
+2015H1,facebook,Qatar,1,0
+2015H1,facebook,Romania,25,0.28
+2015H1,facebook,Russia,1,0
+2015H1,facebook,Senegal,2,0
+2015H1,facebook,Serbia,25,0.76
+2015H1,facebook,Singapore,198,0.75
+2015H1,facebook,Slovenia,1,0
+2015H1,facebook,South Africa,3,0
+2015H1,facebook,South Korea,25,0.28
+2015H1,facebook,Spain,619,0.41
+2015H1,facebook,Sri Lanka,1,1
+2015H1,facebook,Sweden,238,0.88
+2015H1,facebook,Switzerland,38,0.45
+2015H1,facebook,Taiwan,245,0.63
+2015H1,facebook,Thailand,2,0
+2015H1,facebook,Tunisia,1,1
+2015H1,facebook,Turkey,368,0.88
+2015H1,facebook,Uganda,1,0
+2015H1,facebook,Ukraine,6,0.17
+2015H1,facebook,United Arab Emirates,2,0
+2015H1,facebook,UK,3384,0.78
+2015H1,facebook,US,17577,0.8
+2015H2,facebook,Afghanistan,1,0
+2015H2,facebook,Albania,5,0.8
+2015H2,facebook,Argentina,892,0.71
+2015H2,facebook,Armenia,8,0.75
+2015H2,facebook,Australia,802,0.74
+2015H2,facebook,Austria,54,0.33
+2015H2,facebook,Azerbaijan,4,0
+2015H2,facebook,Bangladesh,12,0.17
+2015H2,facebook,Belarus,1,0
+2015H2,facebook,Belgium,290,0.77
+2015H2,facebook,Bosnia,5,0.4
+2015H2,facebook,Brazil,1655,0.41
+2015H2,facebook,Brunei,1,0
+2015H2,facebook,Canada,427,0.8
+2015H2,facebook,Chile,285,0.71
+2015H2,facebook,Colombia,142,0.58
+2015H2,facebook,Croatia,11,0.91
+2015H2,facebook,Cyprus,10,0.1
+2015H2,facebook,Czech Republic,17,0.41
+2015H2,facebook,Denmark,17,0.41
+2015H2,facebook,Dominican Republic,98,0.59
+2015H2,facebook,Ecuador,33,0.73
+2015H2,facebook,Egypt,4,0.25
+2015H2,facebook,Estonia,21,0.67
+2015H2,facebook,Finland,39,0.72
+2015H2,facebook,France,2711,0.54
+2015H2,facebook,Georgia,4,0.75
+2015H2,facebook,Germany,3140,0.42
+2015H2,facebook,Greece,186,0.72
+2015H2,facebook,Guatemala,4,0.75
+2015H2,facebook,Hong Kong,113,0.62
+2015H2,facebook,Hungary,178,0.42
+2015H2,facebook,Iceland,2,0.5
+2015H2,facebook,India,5561,0.51
+2015H2,facebook,Indonesia,2,0
+2015H2,facebook,Iraq,1,0
+2015H2,facebook,Ireland,56,0.7
+2015H2,facebook,Israel,294,0.6
+2015H2,facebook,Italy,1525,0.53
+2015H2,facebook,Japan,4,0.5
+2015H2,facebook,Jordan,20,0.15
+2015H2,facebook,Kazakhstan,3,0
+2015H2,facebook,Kuwait,1,0
+2015H2,facebook,Lebanon,7,0.71
+2015H2,facebook,Liechtenstein,3,0.67
+2015H2,facebook,Lithuania,33,0.42
+2015H2,facebook,Luxembourg,2,0.5
+2015H2,facebook,Macau,2,0.5
+2015H2,facebook,Macedonia,19,0.74
+2015H2,facebook,Malaysia,13,0.77
+2015H2,facebook,Maldives,1,0
+2015H2,facebook,Malta,151,0.72
+2015H2,facebook,Mexico,411,0.7
+2015H2,facebook,Moldova,1,0
+2015H2,facebook,Montenegro,17,0.47
+2015H2,facebook,Myanmar,0,0
+2015H2,facebook,Nepal,1,0
+2015H2,facebook,Netherlands,158,0.79
+2015H2,facebook,New Zealand,167,0.59
+2015H2,facebook,Nigeria,1,1
+2015H2,facebook,Norway,29,0.48
+2015H2,facebook,Pakistan,471,0.66
+2015H2,facebook,Peru,28,0.61
+2015H2,facebook,Philippines,4,0
+2015H2,facebook,Poland,611,0.41
+2015H2,facebook,Portugal,545,0.3
+2015H2,facebook,Qatar,1,0
+2015H2,facebook,Romania,11,0.09
+2015H2,facebook,Russia,4,0
+2015H2,facebook,Saint Vincent and the Grenadines,1,0
+2015H2,facebook,Senegal,1,0
+2015H2,facebook,Serbia,43,0.65
+2015H2,facebook,Singapore,214,0.76
+2015H2,facebook,Slovenia,5,0.2
+2015H2,facebook,South Africa,1,0
+2015H2,facebook,South Korea,52,0.5
+2015H2,facebook,Spain,536,0.45
+2015H2,facebook,Sudan,5,0
+2015H2,facebook,Sweden,260,0.87
+2015H2,facebook,Switzerland,41,0.32
+2015H2,facebook,Taiwan,333,0.62
+2015H2,facebook,Tanzania,1,0
+2015H2,facebook,Thailand,3,0
+2015H2,facebook,Bahamas,1,0
+2015H2,facebook,Turkey,443,0.84
+2015H2,facebook,Ukraine,9,0.44
+2015H2,facebook,United Arab Emirates,5,0.8
+2015H2,facebook,UK,4190,0.82
+2015H2,facebook,US,19235,0.81
+2015H2,facebook,Vietnam,1,0
+2016H1,facebook,Albania,22,0.82
+2016H1,facebook,Algeria,0,0
+2016H1,facebook,Argentina,829,0.74
+2016H1,facebook,Armenia,9,0.67
+2016H1,facebook,Australia,761,0.55
+2016H1,facebook,Austria,29,0.38
+2016H1,facebook,Azerbaijan,7,0
+2016H1,facebook,Bahrain,0,0
+2016H1,facebook,Bangladesh,10,0.2
+2016H1,facebook,Belgium,420,0.86
+2016H1,facebook,Belize,2,0
+2016H1,facebook,Bolivia,2,0.5
+2016H1,facebook,Bosnia,13,0.46
+2016H1,facebook,Botswana,0,0
+2016H1,facebook,Brazil,1751,0.51
+2016H1,facebook,Brunei,1,0
+2016H1,facebook,Bulgaria,6,0.5
+2016H1,facebook,Canada,1004,0.83
+2016H1,facebook,Chile,380,0.71
+2016H1,facebook,Colombia,214,0.57
+2016H1,facebook,Costa Rica,3,0
+2016H1,facebook,Croatia,47,0.94
+2016H1,facebook,Cyprus,10,0
+2016H1,facebook,Czech Republic,55,0.78
+2016H1,facebook,Denmark,34,0.47
+2016H1,facebook,Dominican Republic,111,0.48
+2016H1,facebook,Ecuador,46,0.59
+2016H1,facebook,Egypt,1,0
+2016H1,facebook,El Salvador,6,0
+2016H1,facebook,Estonia,24,0.63
+2016H1,facebook,Finland,38,0.79
+2016H1,facebook,France,3763,0.6
+2016H1,facebook,Georgia,30,0.53
+2016H1,facebook,Germany,3695,0.48
+2016H1,facebook,Ghana,2,0
+2016H1,facebook,Greece,326,0.72
+2016H1,facebook,Guatemala,26,0.88
+2016H1,facebook,Honduras,2,0
+2016H1,facebook,Hong Kong,190,0.46
+2016H1,facebook,Hungary,186,0.47
+2016H1,facebook,India,6324,0.54
+2016H1,facebook,Indonesia,21,0.33
+2016H1,facebook,Iraq,1,0
+2016H1,facebook,Ireland,89,0.65
+2016H1,facebook,Israel,432,0.72
+2016H1,facebook,Italy,1913,0.56
+2016H1,facebook,Ivory Coast,1,0
+2016H1,facebook,Japan,11,0.55
+2016H1,facebook,Jordan,25,0.16
+2016H1,facebook,Kazakhstan,0,0
+2016H1,facebook,Lebanon,9,0.44
+2016H1,facebook,Lithuania,40,0.8
+2016H1,facebook,Luxembourg,2,1
+2016H1,facebook,Macau,21,0.81
+2016H1,facebook,Macedonia,32,0.66
+2016H1,facebook,Malaysia,19,0.68
+2016H1,facebook,Maldives,2,0
+2016H1,facebook,Malta,146,0.78
+2016H1,facebook,Mexico,562,0.76
+2016H1,facebook,Moldova,6,0.33
+2016H1,facebook,Monaco,1,0
+2016H1,facebook,Mongolia,0,0
+2016H1,facebook,Montenegro,10,0.6
+2016H1,facebook,Nepal,13,0.62
+2016H1,facebook,Netherlands,450,0.87
+2016H1,facebook,New Zealand,90,0.59
+2016H1,facebook,Nicaragua,0,0
+2016H1,facebook,Nigeria,6,0.5
+2016H1,facebook,Norway,33,0.61
+2016H1,facebook,Pakistan,719,0.65
+2016H1,facebook,Panama,4,0.75
+2016H1,facebook,Peru,24,0.75
+2016H1,facebook,Philippines,3,0.67
+2016H1,facebook,Poland,991,0.45
+2016H1,facebook,Portugal,785,0.49
+2016H1,facebook,Qatar,1,0
+2016H1,facebook,Romania,25,0.48
+2016H1,facebook,Russia,0,0
+2016H1,facebook,Saudi Arabia,1,0
+2016H1,facebook,Serbia,52,0.79
+2016H1,facebook,Singapore,233,0.5
+2016H1,facebook,Slovakia,24,0.67
+2016H1,facebook,Slovenia,14,0.64
+2016H1,facebook,South Africa,1,0
+2016H1,facebook,South Korea,68,0.47
+2016H1,facebook,Spain,811,0.52
+2016H1,facebook,Sri Lanka,0,0
+2016H1,facebook,Sudan,5,0
+2016H1,facebook,Sweden,303,0.88
+2016H1,facebook,Switzerland,40,0.53
+2016H1,facebook,Taiwan,480,0.39
+2016H1,facebook,Thailand,1,0
+2016H1,facebook,Bahamas,1,0
+2016H1,facebook,Tunisia,1,0
+2016H1,facebook,Turkey,993,0.81
+2016H1,facebook,Uganda,0,0
+2016H1,facebook,United Arab Emirates,12,0.25
+2016H1,facebook,UK,5469,0.87
+2016H1,facebook,US,23854,0.81
+2016H1,facebook,Uruguay,0,0
+2016H1,facebook,Vietnam,0,0
+2016H2,facebook,Albania,14,0.71
+2016H2,facebook,Andorra,1,0
+2016H2,facebook,Argentina,995,0.75
+2016H2,facebook,Armenia,7,0.86
+2016H2,facebook,Australia,657,0.64
+2016H2,facebook,Austria,47,0.4
+2016H2,facebook,Azerbaijan,3,0
+2016H2,facebook,Bahrain,1,0
+2016H2,facebook,Bangladesh,49,0.24
+2016H2,facebook,Belgium,399,0.85
+2016H2,facebook,Belize,1,0
+2016H2,facebook,Bhutan,1,1
+2016H2,facebook,Bolivia,1,0
+2016H2,facebook,Bosnia,4,0.75
+2016H2,facebook,Botswana,1,0
+2016H2,facebook,Brazil,1819,0.53
+2016H2,facebook,Brunei,2,0
+2016H2,facebook,Bulgaria,14,0.64
+2016H2,facebook,Burkina Faso,0,0
+2016H2,facebook,Cameroon,1,0
+2016H2,facebook,Canada,773,0.84
+2016H2,facebook,Chile,380,0.78
+2016H2,facebook,Colombia,205,0.6
+2016H2,facebook,Costa Rica,5,0.4
+2016H2,facebook,Croatia,66,0.95
+2016H2,facebook,Cyprus,11,0.36
+2016H2,facebook,Czech Republic,61,0.77
+2016H2,facebook,Democratic Republic of the Congo,0,0
+2016H2,facebook,Denmark,29,0.45
+2016H2,facebook,Dominican Republic,69,0.57
+2016H2,facebook,Ecuador,3,0.67
+2016H2,facebook,El Salvador,3,0.33
+2016H2,facebook,Estonia,17,0.82
+2016H2,facebook,Ethiopia,0,0
+2016H2,facebook,Micronesia (Federated States of),0,0
+2016H2,facebook,Finland,34,0.82
+2016H2,facebook,France,4478,0.68
+2016H2,facebook,Gabon,0,0
+2016H2,facebook,Georgia,15,0.87
+2016H2,facebook,Germany,4422,0.54
+2016H2,facebook,Ghana,3,0
+2016H2,facebook,Greece,275,0.67
+2016H2,facebook,Guatemala,34,0.5
+2016H2,facebook,Hong Kong,131,0.58
+2016H2,facebook,Hungary,172,0.53
+2016H2,facebook,Iceland,1,0
+2016H2,facebook,India,7289,0.52
+2016H2,facebook,Indonesia,9,0
+2016H2,facebook,Ireland,79,0.8
+2016H2,facebook,Israel,278,0.78
+2016H2,facebook,Italy,1876,0.6
+2016H2,facebook,Ivory Coast,1,0
+2016H2,facebook,Japan,4,0.25
+2016H2,facebook,Jordan,55,0.31
+2016H2,facebook,Kazakhstan,0,0
+2016H2,facebook,Kenya,1,0
+2016H2,facebook,Kuwait,3,0
+2016H2,facebook,Latvia,0,0
+2016H2,facebook,Lebanon,3,0.67
+2016H2,facebook,Lithuania,39,0.85
+2016H2,facebook,Luxembourg,0,0
+2016H2,facebook,Macau,5,1
+2016H2,facebook,Macedonia,36,0.64
+2016H2,facebook,Madagascar,1,0
+2016H2,facebook,Malaysia,22,0.59
+2016H2,facebook,Maldives,17,0.65
+2016H2,facebook,Mali,0,0
+2016H2,facebook,Malta,173,0.73
+2016H2,facebook,Mexico,600,0.73
+2016H2,facebook,Moldova,1,0
+2016H2,facebook,Monaco,1,0
+2016H2,facebook,Montenegro,8,0.88
+2016H2,facebook,Mozambique,1,1
+2016H2,facebook,Myanmar,1,0
+2016H2,facebook,Nepal,9,0.33
+2016H2,facebook,Netherlands,630,0.93
+2016H2,facebook,New Zealand,84,0.57
+2016H2,facebook,Niger,1,1
+2016H2,facebook,Nigeria,3,0.67
+2016H2,facebook,Norway,21,0.57
+2016H2,facebook,Pakistan,1002,0.68
+2016H2,facebook,Palestine,1,0
+2016H2,facebook,Panama,7,0.14
+2016H2,facebook,Paraguay,7,0.14
+2016H2,facebook,Peru,33,0.52
+2016H2,facebook,Philippines,7,0.29
+2016H2,facebook,Poland,1060,0.49
+2016H2,facebook,Portugal,738,0.53
+2016H2,facebook,Qatar,1,0
+2016H2,facebook,Romania,29,0.59
+2016H2,facebook,Russia,4,0
+2016H2,facebook,Saint Vincent and the Grenadines,0,0
+2016H2,facebook,Saudi Arabia,1,0
+2016H2,facebook,Senegal,3,0
+2016H2,facebook,Serbia,73,0.77
+2016H2,facebook,Singapore,185,0.51
+2016H2,facebook,Slovakia,18,0.83
+2016H2,facebook,Slovenia,13,0.69
+2016H2,facebook,South Africa,6,0.5
+2016H2,facebook,South Korea,94,0.52
+2016H2,facebook,Spain,833,0.55
+2016H2,facebook,Sri Lanka,3,0.33
+2016H2,facebook,St. Lucia,0,0
+2016H2,facebook,Sudan,7,0
+2016H2,facebook,Sweden,312,0.89
+2016H2,facebook,Switzerland,48,0.23
+2016H2,facebook,Syria,0,0
+2016H2,facebook,Taiwan,483,0.5
+2016H2,facebook,Thailand,6,0
+2016H2,facebook,Gambia,0,0
+2016H2,facebook,Trinidad and Tobago,0,0
+2016H2,facebook,Turkey,459,0.49
+2016H2,facebook,Uganda,1,0
+2016H2,facebook,Ukraine,6,1
+2016H2,facebook,United Arab Emirates,3,0.33
+2016H2,facebook,UK,6366,0.89
+2016H2,facebook,US,26014,0.83
+2016H2,facebook,Uzbekistan,0,0
+2016H2,facebook,Vatican City,1,0
+2016H2,facebook,Yemen,0,0
+2016H2,facebook,Zimbabwe,0,0

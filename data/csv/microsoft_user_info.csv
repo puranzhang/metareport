@@ -1,0 +1,501 @@
+time,company,country,requests,approved
+2013H1,microsoft,Argentina,455,0.98
+2013H1,microsoft,Australia,1219,1
+2013H1,microsoft,Austria,9,0.89
+2013H1,microsoft,Belarus,1,1
+2013H1,microsoft,Belgium,500,1
+2013H1,microsoft,Brazil,1098,0.99
+2013H1,microsoft,British Virgin Islands,1,1
+2013H1,microsoft,Bulgaria,2,1
+2013H1,microsoft,Canada,69,0.93
+2013H1,microsoft,Chile,204,1
+2013H1,microsoft,China,3,1
+2013H1,microsoft,Colombia,97,0.98
+2013H1,microsoft,Costa Rica,48,1
+2013H1,microsoft,Czech Republic,34,0.88
+2013H1,microsoft,Denmark,107,0.99
+2013H1,microsoft,Dominican Republic,7,1
+2013H1,microsoft,Ecuador,17,1
+2013H1,microsoft,El Salvador,9,1
+2013H1,microsoft,Estonia,3,1
+2013H1,microsoft,Finland,29,1
+2013H1,microsoft,France,4379,0.99
+2013H1,microsoft,French Polynesia,1,1
+2013H1,microsoft,French Southern Territories,1,1
+2013H1,microsoft,Germany,5185,0.99
+2013H1,microsoft,Greece,10,1
+2013H1,microsoft,Hong Kong,597,1
+2013H1,microsoft,Hungary,70,0.99
+2013H1,microsoft,Iceland,6,1
+2013H1,microsoft,India,278,0.97
+2013H1,microsoft,Ireland,40,0.83
+2013H1,microsoft,Israel,34,0.82
+2013H1,microsoft,Italy,852,0.97
+2013H1,microsoft,Japan,476,0.93
+2013H1,microsoft,Korea,126,0.98
+2013H1,microsoft,Latvia,1,1
+2013H1,microsoft,Lithuania,6,0.67
+2013H1,microsoft,Luxembourg,55,1
+2013H1,microsoft,Malta,29,1
+2013H1,microsoft,Mexico,340,1
+2013H1,microsoft,Moldova,1,1
+2013H1,microsoft,Monaco,2,0.5
+2013H1,microsoft,Netherlands,411,1
+2013H1,microsoft,New Zealand,34,0.94
+2013H1,microsoft,Norway,74,1
+2013H1,microsoft,Panama,10,1
+2013H1,microsoft,Peru,29,1
+2013H1,microsoft,Poland,55,0.98
+2013H1,microsoft,Portugal,334,1
+2013H1,microsoft,Qatar,1,1
+2013H1,microsoft,Russian Federation,3,1
+2013H1,microsoft,Singapore,66,1
+2013H1,microsoft,Slovakia,15,0.93
+2013H1,microsoft,Spain,927,0.99
+2013H1,microsoft,Sweden,281,0.98
+2013H1,microsoft,Switzerland,43,0.88
+2013H1,microsoft,Taiwan,802,1
+2013H1,microsoft,Thailand,44,1
+2013H1,microsoft,Trinidad and Tobago,1,1
+2013H1,microsoft,Turkey,6226,1
+2013H1,microsoft,Ukraine,5,1
+2013H1,microsoft,United Kingdom,4404,0.98
+2013H1,microsoft,United States,7014,0.92
+2013H1,microsoft,Uruguay,1,1
+2013H1,microsoft,Venezuala,15,0.93
+2013H2,microsoft,Argentina,439,0.99
+2013H2,microsoft,Australia,1281,0.98
+2013H2,microsoft,Austria,15,0.6
+2013H2,microsoft,Belarus,2,0
+2013H2,microsoft,Belgium,378,0.97
+2013H2,microsoft,Brazil,1494,0.99
+2013H2,microsoft,Bulgaria,3,1
+2013H2,microsoft,Canada,47,0.89
+2013H2,microsoft,Chile,218,0.98
+2013H2,microsoft,China,4,0.75
+2013H2,microsoft,Colombia,114,1
+2013H2,microsoft,Croatia,2,1
+2013H2,microsoft,Costa Rica,66,1
+2013H2,microsoft,Czech Republic,44,1
+2013H2,microsoft,Denmark,70,0.86
+2013H2,microsoft,Dominican Republic,4,1
+2013H2,microsoft,Ecuador,26,1
+2013H2,microsoft,Egypt,1,1
+2013H2,microsoft,El Salvador,3,1
+2013H2,microsoft,Estonia,13,0.77
+2013H2,microsoft,Finland,47,0.98
+2013H2,microsoft,France,4627,0.94
+2013H2,microsoft,French Polynesia,6,1
+2013H2,microsoft,Germany,5204,0.97
+2013H2,microsoft,Greece,8,0.75
+2013H2,microsoft,Hong Kong,344,1
+2013H2,microsoft,Hungary,56,1
+2013H2,microsoft,Iceland,1,1
+2013H2,microsoft,India,416,0.94
+2013H2,microsoft,Ireland,58,0.95
+2013H2,microsoft,Israel,15,0.67
+2013H2,microsoft,Italy,933,0.94
+2013H2,microsoft,Japan,459,0.98
+2013H2,microsoft,South Korea,105,0.94
+2013H2,microsoft,Latvia,1,0
+2013H2,microsoft,Liechtenstein,1,1
+2013H2,microsoft,Lithuania,6,0.83
+2013H2,microsoft,Luxembourg,47,0.94
+2013H2,microsoft,Malta,21,0.95
+2013H2,microsoft,Mexico,471,1
+2013H2,microsoft,Monaco,1,0
+2013H2,microsoft,Netherlands,338,0.92
+2013H2,microsoft,New Zealand,36,0.92
+2013H2,microsoft,Norway,107,0.93
+2013H2,microsoft,Panama,15,1
+2013H2,microsoft,Paraguay,1,1
+2013H2,microsoft,Peru,37,1
+2013H2,microsoft,Poland,52,0.94
+2013H2,microsoft,Portugal,372,0.99
+2013H2,microsoft,Qatar,1,0
+2013H2,microsoft,Russia,4,0
+2013H2,microsoft,Sierra Leone,1,1
+2013H2,microsoft,Singapore,106,0.99
+2013H2,microsoft,Slovakia,16,0.94
+2013H2,microsoft,Slovenia,2,1
+2013H2,microsoft,South Africa,3,0
+2013H2,microsoft,Spain,769,0.97
+2013H2,microsoft,Sweden,236,0.91
+2013H2,microsoft,Switzerland,72,0.74
+2013H2,microsoft,Taiwan,568,0.98
+2013H2,microsoft,Thailand,83,0.99
+2013H2,microsoft,Trinidad and Tobago,1,1
+2013H2,microsoft,Turkey,5330,1
+2013H2,microsoft,Ukraine,6,0.67
+2013H2,microsoft,United Kingdom,4213,0.96
+2013H2,microsoft,United States,5652,0.96
+2013H2,microsoft,Venezuela,11,1
+2014H1,microsoft,Argentina,444,1
+2014H1,microsoft,Armenia,4,0.5
+2014H1,microsoft,Australia,1101,0.96
+2014H1,microsoft,Austria,30,0.73
+2014H1,microsoft,Belarus,3,0
+2014H1,microsoft,Belgium,433,0.98
+2014H1,microsoft,Brazil,1241,1
+2014H1,microsoft,Canada,61,0.92
+2014H1,microsoft,Chile,209,0.98
+2014H1,microsoft,China,1,0
+2014H1,microsoft,Colombia,187,1
+2014H1,microsoft,Costa Rica,42,1
+2014H1,microsoft,Croatia,1,1
+2014H1,microsoft,Cyprus,2,0
+2014H1,microsoft,Czech Republic,41,0.95
+2014H1,microsoft,Denmark,72,0.94
+2014H1,microsoft,Dominican Republic,10,1
+2014H1,microsoft,Ecuador,40,1
+2014H1,microsoft,Estonia,10,0.8
+2014H1,microsoft,Finland,33,1
+2014H1,microsoft,France,4220,0.94
+2014H1,microsoft,Germany,5183,0.97
+2014H1,microsoft,Greece,10,0.8
+2014H1,microsoft,Hong Kong,229,1
+2014H1,microsoft,Hungary,58,1
+2014H1,microsoft,Iceland,1,1
+2014H1,microsoft,India,378,0.93
+2014H1,microsoft,Ireland,38,0.84
+2014H1,microsoft,Israel,41,0.66
+2014H1,microsoft,Italy,1010,0.87
+2014H1,microsoft,Japan,369,0.98
+2014H1,microsoft,Latvia,2,1
+2014H1,microsoft,Lithuania,10,0.7
+2014H1,microsoft,Luxembourg,84,0.92
+2014H1,microsoft,Malaysia,1,1
+2014H1,microsoft,Malta,40,0.85
+2014H1,microsoft,Mexico,460,1
+2014H1,microsoft,Moldova,1,1
+2014H1,microsoft,Monaco,1,1
+2014H1,microsoft,Montenegro,1,0
+2014H1,microsoft,Netherlands,353,0.99
+2014H1,microsoft,New Zealand,79,0.97
+2014H1,microsoft,Norway,115,0.97
+2014H1,microsoft,Pakistan,3,0.67
+2014H1,microsoft,Panama,17,1
+2014H1,microsoft,Paraguay,1,1
+2014H1,microsoft,Peru,13,1
+2014H1,microsoft,Poland,56,0.8
+2014H1,microsoft,Portugal,511,0.99
+2014H1,microsoft,Puerto Rico,2,1
+2014H1,microsoft,Qatar,1,0
+2014H1,microsoft,Russian Federation,1,0
+2014H1,microsoft,Singapore,90,0.98
+2014H1,microsoft,Slovakia,17,1
+2014H1,microsoft,Slovenia,1,1
+2014H1,microsoft,South Africa,1,0
+2014H1,microsoft,South Korea,156,0.96
+2014H1,microsoft,Spain,829,0.97
+2014H1,microsoft,Sweden,274,0.96
+2014H1,microsoft,Switzerland,46,0.87
+2014H1,microsoft,Taiwan,641,1
+2014H1,microsoft,Thailand,62,0.98
+2014H1,microsoft,Turkey*,4091,0.99
+2014H1,microsoft,Ukraine,2,0.5
+2014H1,microsoft,United Arab Emirates,1,0
+2014H1,microsoft,United Kingdom,4090,0.94
+2014H1,microsoft,United States,6919,0.87
+2014H1,microsoft,Uruguay,8,1
+2014H1,microsoft,Venezuela,12,1
+2014H2,microsoft,Argentina,416,0.98
+2014H2,microsoft,Australia,1231,0.97
+2014H2,microsoft,Austria,21,0.38
+2014H2,microsoft,Belarus,1,0
+2014H2,microsoft,Belgium,481,0.96
+2014H2,microsoft,Bosnia And Herzegovina,1,0
+2014H2,microsoft,Brazil,1220,0.99
+2014H2,microsoft,Canada,68,0.94
+2014H2,microsoft,Chile,167,0.99
+2014H2,microsoft,Colombia,151,0.98
+2014H2,microsoft,Costa Rica,37,1
+2014H2,microsoft,Croatia,1,1
+2014H2,microsoft,Cyprus,3,0.33
+2014H2,microsoft,Czech Republic,42,0.95
+2014H2,microsoft,Denmark,106,0.87
+2014H2,microsoft,Dominican Republic,9,1
+2014H2,microsoft,Ecuador,28,1
+2014H2,microsoft,Estonia,4,0.5
+2014H2,microsoft,Finland,29,0.93
+2014H2,microsoft,France,4546,0.94
+2014H2,microsoft,Germany,4192,0.94
+2014H2,microsoft,Greece,18,0.61
+2014H2,microsoft,Hong Kong,149,0.99
+2014H2,microsoft,Hungary,57,0.95
+2014H2,microsoft,India,378,0.95
+2014H2,microsoft,Ireland,27,0.85
+2014H2,microsoft,Israel,40,0.73
+2014H2,microsoft,Italy,759,0.85
+2014H2,microsoft,Japan,368,0.81
+2014H2,microsoft,Lithuania,5,0.8
+2014H2,microsoft,Luxembourg,54,0.93
+2014H2,microsoft,Malta,50,0.96
+2014H2,microsoft,Mexico,481,1
+2014H2,microsoft,Moldova,4,0.5
+2014H2,microsoft,Netherlands,381,0.99
+2014H2,microsoft,New Zealand,52,0.62
+2014H2,microsoft,Norway,88,0.94
+2014H2,microsoft,Panama,71,0.99
+2014H2,microsoft,Peru,25,1
+2014H2,microsoft,Poland,47,0.89
+2014H2,microsoft,Portugal,386,0.97
+2014H2,microsoft,Russian Federation,1,0
+2014H2,microsoft,Singapore,101,0.98
+2014H2,microsoft,Slovakia,20,1
+2014H2,microsoft,Slovenia,1,1
+2014H2,microsoft,South Korea,126,0.95
+2014H2,microsoft,Spain,655,0.96
+2014H2,microsoft,Sweden,222,0.93
+2014H2,microsoft,Switzerland,64,0.8
+2014H2,microsoft,Taiwan,532,0.99
+2014H2,microsoft,Thailand,67,0.7
+2014H2,microsoft,Turkey,3039,1
+2014H2,microsoft,United Arab Emirates,1,0
+2014H2,microsoft,United Kingdom,4518,0.9
+2014H2,microsoft,United States,5445,0.84
+2014H2,microsoft,Uruguay,7,1
+2014H2,microsoft,Venezuela,9,1
+2015H1,microsoft, Andorra ,1,1
+2015H1,microsoft, Argentina ,584,0.95
+2015H1,microsoft, Australia ,995,0.92
+2015H1,microsoft, Austria ,47,0.57
+2015H1,microsoft, Belarus ,1,0
+2015H1,microsoft, Belgium ,406,0.92
+2015H1,microsoft, Bosnia And Herzegovina ,1,1
+2015H1,microsoft, Brazil ,1159,0.96
+2015H1,microsoft, Canada ,51,0.88
+2015H1,microsoft, Chile ,184,0.91
+2015H1,microsoft, Colombia ,167,0.9
+2015H1,microsoft, Costa Rica ,41,0.88
+2015H1,microsoft, Cote D'Ivoire ,1,0
+2015H1,microsoft, Croatia ,2,0.5
+2015H1,microsoft, Cyprus ,1,1
+2015H1,microsoft, Czech Republic ,56,0.84
+2015H1,microsoft, Denmark ,67,0.85
+2015H1,microsoft, Dominican Republic ,6,0.83
+2015H1,microsoft, Ecuador ,33,1
+2015H1,microsoft, Estonia ,2,0.5
+2015H1,microsoft, Finland ,31,0.94
+2015H1,microsoft, France ,4396,0.8
+2015H1,microsoft, French Polynesia ,1,0
+2015H1,microsoft, Germany ,4407,0.89
+2015H1,microsoft, Greece ,24,0.67
+2015H1,microsoft, Hong Kong ,146,0.83
+2015H1,microsoft, Hungary ,68,0.88
+2015H1,microsoft, India ,386,0.85
+2015H1,microsoft, Ireland ,47,0.83
+2015H1,microsoft, Israel ,53,0.57
+2015H1,microsoft, Italy ,1011,0.86
+2015H1,microsoft, Japan ,382,0.69
+2015H1,microsoft, Korea ,154,0.74
+2015H1,microsoft, Lithuania ,5,1
+2015H1,microsoft, Luxembourg ,66,0.83
+2015H1,microsoft, Malaysia ,1,1
+2015H1,microsoft, Malta ,65,0.74
+2015H1,microsoft, Mexico ,410,0.94
+2015H1,microsoft, Moldova ,2,0.5
+2015H1,microsoft, Monaco ,1,1
+2015H1,microsoft, Netherlands ,397,0.97
+2015H1,microsoft, New Zealand ,42,0.81
+2015H1,microsoft, Norway ,86,0.84
+2015H1,microsoft, Pakistan ,2,1
+2015H1,microsoft, Panama ,3,1
+2015H1,microsoft, Peru ,31,0.94
+2015H1,microsoft, Poland ,74,0.69
+2015H1,microsoft, Portugal ,611,0.9
+2015H1,microsoft, Puerto Rico ,3,0.67
+2015H1,microsoft, Russian Federation ,2,0
+2015H1,microsoft, Singapore ,114,0.8
+2015H1,microsoft, Slovakia ,13,0.62
+2015H1,microsoft, Slovenia ,2,0.5
+2015H1,microsoft, South Africa ,3,0.33
+2015H1,microsoft, Spain ,588,0.89
+2015H1,microsoft, Sweden ,262,0.87
+2015H1,microsoft, Switzerland ,117,0.78
+2015H1,microsoft,Taiwan,578,0.95
+2015H1,microsoft,Thailand,15,0.93
+2015H1,microsoft,Turkey,5191,0.98
+2015H1,microsoft,Ukraine,1,0
+2015H1,microsoft,United Kingdom,5680,0.89
+2015H1,microsoft,United States,5940,0.8
+2015H1,microsoft,Uruguay,2,1
+2015H1,microsoft,Venezuela,10,1
+2015H2,microsoft,Andorra,2,1
+2015H2,microsoft,Argentina,789,0.9
+2015H2,microsoft,Australia,1019,0.88
+2015H2,microsoft,Austria,62,0.55
+2015H2,microsoft,Belarus,3,0
+2015H2,microsoft,Belgium,481,0.89
+2015H2,microsoft,Brazil,1441,0.95
+2015H2,microsoft,Canada,37,0.78
+2015H2,microsoft,Chile,137,0.91
+2015H2,microsoft,China,3,0
+2015H2,microsoft,Colombia,141,0.93
+2015H2,microsoft,Costa Rica,59,0.88
+2015H2,microsoft,Croatia,1,1
+2015H2,microsoft,Czech Republic,64,0.77
+2015H2,microsoft,Denmark,86,0.78
+2015H2,microsoft,Dominican Republic,7,1
+2015H2,microsoft,Ecuador,23,0.91
+2015H2,microsoft,El Salvador,1,1
+2015H2,microsoft,Estonia,4,1
+2015H2,microsoft,Finland,56,0.91
+2015H2,microsoft,France,6280,0.78
+2015H2,microsoft,Germany,4026,0.85
+2015H2,microsoft,Greece,10,0.6
+2015H2,microsoft,Hong Kong,107,0.74
+2015H2,microsoft,Hungary,44,0.66
+2015H2,microsoft,India,414,0.8
+2015H2,microsoft,Ireland,36,0.86
+2015H2,microsoft,Israel,20,0.55
+2015H2,microsoft,Italy,572,0.74
+2015H2,microsoft,Japan,330,0.59
+2015H2,microsoft,"Korea, Republic Of",66,0.8
+2015H2,microsoft,Liechtenstein,1,0
+2015H2,microsoft,Lithuania,8,0.5
+2015H2,microsoft,Luxembourg,44,0.77
+2015H2,microsoft,Malta,37,0.84
+2015H2,microsoft,Mexico,319,0.93
+2015H2,microsoft,Moldova,2,1
+2015H2,microsoft,Monaco,2,0
+2015H2,microsoft,Netherlands,509,0.95
+2015H2,microsoft,New Zealand,57,0.72
+2015H2,microsoft,Norway,112,0.88
+2015H2,microsoft,Pakistan,1,1
+2015H2,microsoft,Panama,1,1
+2015H2,microsoft,Peru,33,0.94
+2015H2,microsoft,Poland,81,0.69
+2015H2,microsoft,Portugal,445,0.84
+2015H2,microsoft,Russian Federation,1,0
+2015H2,microsoft,Singapore,115,0.77
+2015H2,microsoft,Slovakia,12,0.75
+2015H2,microsoft,Slovenia,2,1
+2015H2,microsoft,South Africa,2,0
+2015H2,microsoft,Spain,528,0.88
+2015H2,microsoft,Sweden,190,0.85
+2015H2,microsoft,Switzerland,105,0.76
+2015H2,microsoft,Taiwan,434,0.91
+2015H2,microsoft,Turkey,9169,0.97
+2015H2,microsoft,United Kingdom,5254,0.9
+2015H2,microsoft,United States,5297,0.79
+2015H2,microsoft,Urugay,1,0
+2016H1,microsoft,Argentina,866,0.94
+2016H1,microsoft,Armenia,1,0
+2016H1,microsoft,Australia,1000,0.9
+2016H1,microsoft,Austria,30,0.6
+2016H1,microsoft,Belgium,351,0.88
+2016H1,microsoft,Brazil,1251,0.97
+2016H1,microsoft,Bulgaria,1,0
+2016H1,microsoft,Canada,61,0.84
+2016H1,microsoft,Chile,127,0.9
+2016H1,microsoft,Colombia,134,0.93
+2016H1,microsoft,Costa Rica,81,0.8
+2016H1,microsoft,Cyprus,1,1
+2016H1,microsoft,Czech Republic,47,0.7
+2016H1,microsoft,Denmark,68,0.76
+2016H1,microsoft,Dominican Republic,9,0.56
+2016H1,microsoft,Ecuador,28,0.79
+2016H1,microsoft,El Salvador,1,0
+2016H1,microsoft,Estonia,2,0.5
+2016H1,microsoft,Finland,42,0.88
+2016H1,microsoft,France,5045,0.73
+2016H1,microsoft,Georgia,3,0
+2016H1,microsoft,Germany,4167,0.85
+2016H1,microsoft,Greece,8,0.75
+2016H1,microsoft,Hong Kong,106,0.71
+2016H1,microsoft,Hungary,45,0.84
+2016H1,microsoft,India,507,0.84
+2016H1,microsoft,Ireland,32,0.84
+2016H1,microsoft,Israel,85,0.88
+2016H1,microsoft,Italy,663,0.81
+2016H1,microsoft,Japan,224,0.77
+2016H1,microsoft,Korea,81,0.83
+2016H1,microsoft,Latvia,1,0
+2016H1,microsoft,Lithuania,9,0.78
+2016H1,microsoft,Luxembourg,109,0.91
+2016H1,microsoft,Malta,23,0.96
+2016H1,microsoft,Mexico,347,0.93
+2016H1,microsoft,Moldova,2,1
+2016H1,microsoft,Monaco,1,1
+2016H1,microsoft,Netherlands,385,0.96
+2016H1,microsoft,New Zealand,46,0.74
+2016H1,microsoft,Norway,200,0.91
+2016H1,microsoft,Pakistan,1,1
+2016H1,microsoft,Panama,54,0.93
+2016H1,microsoft,Paraguay,4,0.5
+2016H1,microsoft,Peru,30,0.97
+2016H1,microsoft,Poland,91,0.71
+2016H1,microsoft,Portugal,522,0.85
+2016H1,microsoft,Puerto Rico,2,0.5
+2016H1,microsoft,Romania,1,0
+2016H1,microsoft,Russian Federation,2,0
+2016H1,microsoft,Singapore,100,0.85
+2016H1,microsoft,Slovakia,8,0.38
+2016H1,microsoft,South Africa,2,0
+2016H1,microsoft,Spain,623,0.85
+2016H1,microsoft,Sweden,185,0.89
+2016H1,microsoft,Switzerland,98,0.84
+2016H1,microsoft,Taiwan,393,0.92
+2016H1,microsoft,Turkey,7364,0.97
+2016H1,microsoft,Ukraine,1,0
+2016H1,microsoft,United Arab Emirates,1,0
+2016H1,microsoft,United Kingdom,4731,0.93
+2016H1,microsoft,United States,5168,0.83
+2016H1,microsoft,Uruguay,1,0
+2016H2,microsoft,Argentina,548,0.93
+2016H2,microsoft,Australia,747,0.82
+2016H2,microsoft,Austria,18,0.83
+2016H2,microsoft,Belarus,1,0
+2016H2,microsoft,Belgium,357,0.94
+2016H2,microsoft,Brazil,1220,0.98
+2016H2,microsoft,Canada,43,0.79
+2016H2,microsoft,Chile,99,0.88
+2016H2,microsoft,Colombia,90,0.78
+2016H2,microsoft,Costa Rica,46,0.76
+2016H2,microsoft,Czech Republic,50,0.84
+2016H2,microsoft,Denmark,53,0.68
+2016H2,microsoft,Dominican Republic,4,1
+2016H2,microsoft,Ecuador,27,0.93
+2016H2,microsoft,El Salvador,1,1
+2016H2,microsoft,Finland,18,0.94
+2016H2,microsoft,France,3716,0.73
+2016H2,microsoft,Georgia,34,1
+2016H2,microsoft,Germany,3546,0.84
+2016H2,microsoft,Greece,16,0.88
+2016H2,microsoft,Hong Kong,77,0.83
+2016H2,microsoft,Hungary,56,0.73
+2016H2,microsoft,India,403,0.79
+2016H2,microsoft,Ireland,48,0.67
+2016H2,microsoft,Israel,38,0.66
+2016H2,microsoft,Italy,471,0.68
+2016H2,microsoft,Japan,114,0.82
+2016H2,microsoft,Latvia,1,0
+2016H2,microsoft,Lithuania,2,1
+2016H2,microsoft,Luxembourg,71,0.9
+2016H2,microsoft,Malta,15,0.8
+2016H2,microsoft,Mexico,237,0.85
+2016H2,microsoft,Moldova,1,1
+2016H2,microsoft,Netherlands,481,0.93
+2016H2,microsoft,New Zealand,18,0.67
+2016H2,microsoft,Norway,193,0.93
+2016H2,microsoft,Pakistan,3,0.67
+2016H2,microsoft,Panama,1,1
+2016H2,microsoft,Paraguay,1,1
+2016H2,microsoft,Peru,14,0.93
+2016H2,microsoft,Poland,61,0.74
+2016H2,microsoft,Portugal,423,0.81
+2016H2,microsoft,Romania,5,0.6
+2016H2,microsoft,Russia,10,0
+2016H2,microsoft,Serbia,1,1
+2016H2,microsoft,Singapore,111,0.87
+2016H2,microsoft,Slovakia,14,0.71
+2016H2,microsoft,South Korea,85,0.73
+2016H2,microsoft,Spain,434,0.83
+2016H2,microsoft,Sweden,133,0.93
+2016H2,microsoft,Switzerland,119,0.77
+2016H2,microsoft,Taiwan,455,0.93
+2016H2,microsoft,Turkey,2514,0.88
+2016H2,microsoft,Ukraine,8,0.5
+2016H2,microsoft,United Kingdom,3846,0.9
+2016H2,microsoft,United States,4739,0.84

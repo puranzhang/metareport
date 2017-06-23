@@ -1,0 +1,533 @@
+time,company,country,requests,approved
+2012H1,twitter,Australia,3,0.33
+2012H1,twitter,Austria,1,0
+2012H1,twitter,Brazil,5,0
+2012H1,twitter,Bulgaria,1,0
+2012H1,twitter,Canada,11,0.18
+2012H1,twitter,France,6,0
+2012H1,twitter,Germany,1,0
+2012H1,twitter,Greece,3,0.33
+2012H1,twitter,India,1,0
+2012H1,twitter,Indonesia,1,0
+2012H1,twitter,Italy,4,0
+2012H1,twitter,Japan,98,0.2
+2012H1,twitter,Mexico,5,0
+2012H1,twitter,Netherlands,4,0.5
+2012H1,twitter,Peru,1,0
+2012H1,twitter,Portugal,2,0
+2012H1,twitter,South Korea,1,0
+2012H1,twitter,Spain,8,0
+2012H1,twitter,Sweden,1,0
+2012H1,twitter,Switzerland,1,0
+2012H1,twitter,Turkey,1,0
+2012H1,twitter,United Kingdom,11,0.18
+2012H1,twitter,United States,679,0.75
+2012H2,twitter,Argentina,2,0
+2012H2,twitter,Australia,5,0.2
+2012H2,twitter,Austria,0,0
+2012H2,twitter,Belgium,0,0
+2012H2,twitter,Brazil,34,0.12
+2012H2,twitter,Bulgaria,0,0
+2012H2,twitter,Canada,15,0.07
+2012H2,twitter,Denmark,1,0
+2012H2,twitter,France,12,0
+2012H2,twitter,Germany,5,0
+2012H2,twitter,Greece,8,0
+2012H2,twitter,India,5,0
+2012H2,twitter,Indonesia,1,0
+2012H2,twitter,Ireland,2,0
+2012H2,twitter,Israel,1,0
+2012H2,twitter,Italy,3,0
+2012H2,twitter,Japan,62,0.05
+2012H2,twitter,Mexico,1,0
+2012H2,twitter,Netherlands,3,0.33
+2012H2,twitter,Peru,0,0
+2012H2,twitter,Portugal,0,0
+2012H2,twitter,Qatar,1,0
+2012H2,twitter,South Korea,0,0
+2012H2,twitter,South Sudan,1,0
+2012H2,twitter,Spain,5,0
+2012H2,twitter,Sweden,0,0
+2012H2,twitter,Switzerland,1,0
+2012H2,twitter,Turkey,1,0
+2012H2,twitter,United Kingdom,25,0.04
+2012H2,twitter,United States,815,0.69
+2013H1,twitter,Argentina,2,0
+2013H1,twitter,Australia,8,0.25
+2013H1,twitter,Austria,0,0
+2013H1,twitter,Belgium,0,0
+2013H1,twitter,Brazil,22,0.32
+2013H1,twitter,Bulgaria,0,0
+2013H1,twitter,Canada,12,0.17
+2013H1,twitter,Denmark,0,0
+2013H1,twitter,Ecuador,3,1
+2013H1,twitter,France,18,0.11
+2013H1,twitter,Germany,6,0.17
+2013H1,twitter,Greece,8,0
+2013H1,twitter,India,5,0
+2013H1,twitter,Indonesia,0,0
+2013H1,twitter,Ireland,1,1
+2013H1,twitter,Israel,0,0
+2013H1,twitter,Italy,22,0
+2013H1,twitter,Japan,87,0.16
+2013H1,twitter,Kuwait,1,0
+2013H1,twitter,Mexico,11,0
+2013H1,twitter,Netherlands,3,0.33
+2013H1,twitter,Peru,0,0
+2013H1,twitter,Philippines,1,0
+2013H1,twitter,Portugal,0,0
+2013H1,twitter,Qatar,0,0
+2013H1,twitter,Saudi Arabia,1,0
+2013H1,twitter,Singapore,1,0
+2013H1,twitter,South Korea,1,0
+2013H1,twitter,South Sudan,0,0
+2013H1,twitter,Spain,13,0
+2013H1,twitter,Sweden,0,0
+2013H1,twitter,Switzerland,1,0
+2013H1,twitter,Turkey,1,0
+2013H1,twitter,United Kingdom,26,0.15
+2013H1,twitter,United States,902,0.67
+2013H1,twitter,Venezuela,1,0
+2013H2,twitter,Argentina,1,0
+2013H2,twitter,Australia,5,0.2
+2013H2,twitter,Austria,0,0
+2013H2,twitter,Belgium,2,0.5
+2013H2,twitter,Brazil,20,0.3
+2013H2,twitter,Bulgaria,0,0
+2013H2,twitter,Canada,18,0.56
+2013H2,twitter,Colombia,4,0
+2013H2,twitter,Denmark,0,0
+2013H2,twitter,Ecuador,0,0
+2013H2,twitter,France,57,0.23
+2013H2,twitter,Germany,3,0.33
+2013H2,twitter,Greece,9,0.11
+2013H2,twitter,Hong Kong,1,0
+2013H2,twitter,India,19,0.32
+2013H2,twitter,Indonesia,1,0
+2013H2,twitter,Ireland,0,0
+2013H2,twitter,Israel,0,0
+2013H2,twitter,Italy,19,0
+2013H2,twitter,Japan,213,0.23
+2013H2,twitter,Kuwait,1,0
+2013H2,twitter,Lebanon,3,0.67
+2013H2,twitter,Malaysia,1,0
+2013H2,twitter,Maldives,1,0
+2013H2,twitter,Mexico,1,0
+2013H2,twitter,Netherlands,9,0.56
+2013H2,twitter,New Zealand,1,0
+2013H2,twitter,Norway,1,1
+2013H2,twitter,Oman,1,0
+2013H2,twitter,Pakistan,1,0
+2013H2,twitter,Peru,0,0
+2013H2,twitter,Philippines,0,0
+2013H2,twitter,Portugal,0,0
+2013H2,twitter,Qatar,1,0
+2013H2,twitter,Saudi Arabia,110,0.05
+2013H2,twitter,Singapore,2,0
+2013H2,twitter,South Korea,0,0
+2013H2,twitter,South Sudan,0,0
+2013H2,twitter,Spain,13,0
+2013H2,twitter,Sweden,0,0
+2013H2,twitter,Switzerland,0,0
+2013H2,twitter,Turkey,1,0
+2013H2,twitter,United Arab Emirates,2,0
+2013H2,twitter,United Kingdom,56,0.43
+2013H2,twitter,United States,833,0.69
+2013H2,twitter,Venezuela,0,0
+2014H1,twitter,Albania,1,0
+2014H1,twitter,Argentina,7,0
+2014H1,twitter,Australia,2,1
+2014H1,twitter,Austria,0,0
+2014H1,twitter,Bahrain,1,0
+2014H1,twitter,Belgium,0,0
+2014H1,twitter,Brazil,77,0.39
+2014H1,twitter,Bulgaria,0,0
+2014H1,twitter,Canada,30,0.23
+2014H1,twitter,Chile,1,0
+2014H1,twitter,Colombia,5,0.2
+2014H1,twitter,Denmark,1,0
+2014H1,twitter,Ecuador,0,0
+2014H1,twitter,Egypt,1,0
+2014H1,twitter,France,36,0.08
+2014H1,twitter,Germany,14,0.21
+2014H1,twitter,Greece,16,0.13
+2014H1,twitter,Hong Kong,0,0
+2014H1,twitter,India,16,0.13
+2014H1,twitter,Indonesia,0,0
+2014H1,twitter,Ireland,3,0.33
+2014H1,twitter,Israel,0,0
+2014H1,twitter,Italy,10,0.2
+2014H1,twitter,Japan,192,0.36
+2014H1,twitter,Kuwait,5,0
+2014H1,twitter,Lebanon,5,0
+2014H1,twitter,Lithuania,1,0
+2014H1,twitter,Malaysia,3,0
+2014H1,twitter,Maldives,0,0
+2014H1,twitter,Mexico,5,0
+2014H1,twitter,Netherlands,5,0.2
+2014H1,twitter,New Zealand,2,0.5
+2014H1,twitter,Norway,1,0
+2014H1,twitter,Oman,2,0
+2014H1,twitter,Pakistan,2,0
+2014H1,twitter,Peru,0,0
+2014H1,twitter,Philippines,0,0
+2014H1,twitter,Portugal,0,0
+2014H1,twitter,Qatar,0,0
+2014H1,twitter,Saudi Arabia,189,0.01
+2014H1,twitter,Singapore,1,0
+2014H1,twitter,South Korea,6,0.17
+2014H1,twitter,South Sudan,0,0
+2014H1,twitter,Spain,43,0.12
+2014H1,twitter,Sri Lanka,1,0
+2014H1,twitter,Sweden,0,0
+2014H1,twitter,Switzerland,3,0
+2014H1,twitter,Thailand,1,0
+2014H1,twitter,Trinidad and Tobago,1,0
+2014H1,twitter,Turkey,24,0
+2014H1,twitter,United Arab Emirates,6,0
+2014H1,twitter,United Kingdom,78,0.46
+2014H1,twitter,United States,1257,0.72
+2014H1,twitter,Venezuela,4,0
+2014H2,twitter,Albania,0,0
+2014H2,twitter,Argentina,3,0.33
+2014H2,twitter,Australia,10,0.5
+2014H2,twitter,Austria,0,0
+2014H2,twitter,Bahrain,0,0
+2014H2,twitter,Belgium,1,0
+2014H2,twitter,Belize,1,0
+2014H2,twitter,Brazil,50,0.14
+2014H2,twitter,Bulgaria,0,0
+2014H2,twitter,Canada,32,0.34
+2014H2,twitter,Chile,0,0
+2014H2,twitter,Colombia,3,0
+2014H2,twitter,Denmark,3,0.33
+2014H2,twitter,Ecuador,0,0
+2014H2,twitter,Egypt,1,0
+2014H2,twitter,El Salvador,1,0
+2014H2,twitter,France,60,0.13
+2014H2,twitter,Germany,17,0.12
+2014H2,twitter,Greece,3,0
+2014H2,twitter,Hong Kong,0,0
+2014H2,twitter,India,41,0.22
+2014H2,twitter,Indonesia,0,0
+2014H2,twitter,Ireland,0,0
+2014H2,twitter,Israel,16,0.13
+2014H2,twitter,Italy,0,0
+2014H2,twitter,Japan,288,0.36
+2014H2,twitter,Kenya,1,0
+2014H2,twitter,Kuwait,1,0
+2014H2,twitter,Lebanon,3,0
+2014H2,twitter,Lithuania,0,0
+2014H2,twitter,Malaysia,0,0
+2014H2,twitter,Maldives,0,0
+2014H2,twitter,Mexico,7,0
+2014H2,twitter,Netherlands,4,0.25
+2014H2,twitter,New Zealand,1,0
+2014H2,twitter,Norway,1,1
+2014H2,twitter,Oman,0,0
+2014H2,twitter,Pakistan,0,0
+2014H2,twitter,Peru,0,0
+2014H2,twitter,Philippines,0,0
+2014H2,twitter,Portugal,1,0
+2014H2,twitter,Qatar,0,0
+2014H2,twitter,Russia,108,0
+2014H2,twitter,Saudi Arabia,31,0.06
+2014H2,twitter,Singapore,0,0
+2014H2,twitter,South Korea,4,0.5
+2014H2,twitter,South Sudan,0,0
+2014H2,twitter,Spain,69,0.12
+2014H2,twitter,Sri Lanka,0,0
+2014H2,twitter,Sweden,2,0
+2014H2,twitter,Switzerland,3,0
+2014H2,twitter,Thailand,0,0
+2014H2,twitter,Trinidad and Tobago,0,0
+2014H2,twitter,Turkey,356,0
+2014H2,twitter,United Arab Emirates,11,0
+2014H2,twitter,United Kingdom,116,0.34
+2014H2,twitter,United States,1622,0.8
+2014H2,twitter,Venezuela,0,0
+2015H1,twitter,Albania,0,0
+2015H1,twitter,Argentina,3,0
+2015H1,twitter,Australia,9,0.89
+2015H1,twitter,Austria,0,0
+2015H1,twitter,Bahrain,0,0
+2015H1,twitter,Belize,0,0
+2015H1,twitter,Belgium,5,0.4
+2015H1,twitter,Brazil,52,0.29
+2015H1,twitter,Bulgaria,1,0
+2015H1,twitter,Canada,35,0.63
+2015H1,twitter,Chile,0,0
+2015H1,twitter,Colombia,11,0.18
+2015H1,twitter,Cyprus,1,0
+2015H1,twitter,Denmark,0,0
+2015H1,twitter,Dominican Republic,8,0.13
+2015H1,twitter,Ecuador,1,0
+2015H1,twitter,Egypt,0,0
+2015H1,twitter,El Salvador,0,0
+2015H1,twitter,France,139,0.4
+2015H1,twitter,Germany,28,0.36
+2015H1,twitter,Greece,11,0
+2015H1,twitter,Hong Kong,0,0
+2015H1,twitter,India,113,0.19
+2015H1,twitter,Indonesia,1,0
+2015H1,twitter,Ireland,1,0
+2015H1,twitter,Israel,0,0
+2015H1,twitter,Italy,43,0.16
+2015H1,twitter,Japan,425,0.42
+2015H1,twitter,Kenya,1,0
+2015H1,twitter,Kuwait,7,1
+2015H1,twitter,Lebanon,1,0
+2015H1,twitter,Lithuania,0,0
+2015H1,twitter,Malaysia,0,0
+2015H1,twitter,Maldives,0,0
+2015H1,twitter,Mexico,7,0
+2015H1,twitter,Netherlands,18,0.33
+2015H1,twitter,New Zealand,0,0
+2015H1,twitter,Norway,0,0
+2015H1,twitter,Oman,0,0
+2015H1,twitter,Pakistan,3,0
+2015H1,twitter,Peru,0,0
+2015H1,twitter,Philippines,0,0
+2015H1,twitter,Poland,1,0
+2015H1,twitter,Portugal,3,0
+2015H1,twitter,Qatar,0,0
+2015H1,twitter,Russia,43,0
+2015H1,twitter,Saudi Arabia,93,0.69
+2015H1,twitter,Serbia,3,0.33
+2015H1,twitter,Singapore,0,0
+2015H1,twitter,South Korea,30,0.57
+2015H1,twitter,South Sudan,0,0
+2015H1,twitter,Spain,110,0.24
+2015H1,twitter,Sri Lanka,0,0
+2015H1,twitter,Sweden,4,0.5
+2015H1,twitter,Switzerland,3,0
+2015H1,twitter,Thailand,0,0
+2015H1,twitter,Trinidad and Tobago,0,0
+2015H1,twitter,Turkey,412,0
+2015H1,twitter,United Arab Emirates,2,0.5
+2015H1,twitter,United Kingdom,299,0.52
+2015H1,twitter,United States,2436,0.8
+2015H1,twitter,Venezuela,0,0
+2015H2,twitter,Albania,0,0
+2015H2,twitter,Argentina,4,0
+2015H2,twitter,Australia,16,0.44
+2015H2,twitter,Austria,0,0
+2015H2,twitter,Bahrain,0,0
+2015H2,twitter,Bangladesh,10,0.6
+2015H2,twitter,Belgium,11,0.82
+2015H2,twitter,Belize,0,0
+2015H2,twitter,Brazil,31,0.42
+2015H2,twitter,Bulgaria,0,0
+2015H2,twitter,Canada,50,0.78
+2015H2,twitter,Chile,1,0
+2015H2,twitter,Colombia,12,0.08
+2015H2,twitter,Croatia,1,0
+2015H2,twitter,Cyprus,0,0
+2015H2,twitter,Czech Republic,3,0
+2015H2,twitter,Denmark,1,0
+2015H2,twitter,Dominican Republic,5,0.2
+2015H2,twitter,Ecuador,3,0
+2015H2,twitter,Egypt,0,0
+2015H2,twitter,El Salvador,0,0
+2015H2,twitter,Finland,3,1
+2015H2,twitter,France,707,0.61
+2015H2,twitter,Germany,69,0.55
+2015H2,twitter,Greece,8,0.13
+2015H2,twitter,Hong Kong,0,0
+2015H2,twitter,India,141,0.42
+2015H2,twitter,Indonesia,0,0
+2015H2,twitter,Ireland,2,0
+2015H2,twitter,Israel,4,0.25
+2015H2,twitter,Italy,40,0.55
+2015H2,twitter,Japan,445,0.54
+2015H2,twitter,Kenya,0,0
+2015H2,twitter,Kuwait,19,0.63
+2015H2,twitter,Lebanon,1,1
+2015H2,twitter,Lithuania,0,0
+2015H2,twitter,Luxembourg,1,1
+2015H2,twitter,Malaysia,2,0
+2015H2,twitter,Maldives,1,1
+2015H2,twitter,Malta,1,0
+2015H2,twitter,Mexico,8,0.25
+2015H2,twitter,Montenegro,1,0
+2015H2,twitter,Netherlands,12,0.58
+2015H2,twitter,New Zealand,1,0
+2015H2,twitter,Nigeria,1,1
+2015H2,twitter,Norway,0,0
+2015H2,twitter,Oman,0,0
+2015H2,twitter,Pakistan,1,0
+2015H2,twitter,Peru,0,0
+2015H2,twitter,Philippines,0,0
+2015H2,twitter,Poland,0,0
+2015H2,twitter,Portugal,1,0
+2015H2,twitter,Qatar,0,0
+2015H2,twitter,Russia,82,0
+2015H2,twitter,Saudi Arabia,113,0.85
+2015H2,twitter,Serbia,6,0.17
+2015H2,twitter,Singapore,8,0.5
+2015H2,twitter,South Korea,44,0.43
+2015H2,twitter,South Sudan,0,0
+2015H2,twitter,Spain,125,0.5
+2015H2,twitter,Sri Lanka,0,0
+2015H2,twitter,Sweden,1,1
+2015H2,twitter,Switzerland,1,1
+2015H2,twitter,Thailand,0,0
+2015H2,twitter,Trinidad and Tobago,0,0
+2015H2,twitter,Turkey,403,0
+2015H2,twitter,United Arab Emirates,60,0.43
+2015H2,twitter,United Kingdom,427,0.76
+2015H2,twitter,United States,2673,0.79
+2015H2,twitter,Venezuela,0,0
+2016H1,twitter,Albania,0,0
+2016H1,twitter,Argentina,18,0.22
+2016H1,twitter,Australia,34,0.62
+2016H1,twitter,Austria,1,0
+2016H1,twitter,Bahrain,3,0
+2016H1,twitter,Bangladesh,0,0
+2016H1,twitter,Belgium,67,0.88
+2016H1,twitter,Belize,0,0
+2016H1,twitter,Bermuda,1,0
+2016H1,twitter,Brazil,50,0.52
+2016H1,twitter,Bulgaria,0,0
+2016H1,twitter,Canada,65,0.91
+2016H1,twitter,Chile,2,0.5
+2016H1,twitter,Colombia,20,0.1
+2016H1,twitter,Croatia,0,0
+2016H1,twitter,Cyprus,0,0
+2016H1,twitter,Czech Republic,1,0
+2016H1,twitter,Denmark,4,0.75
+2016H1,twitter,Dominican Republic,2,0
+2016H1,twitter,Ecuador,2,0.5
+2016H1,twitter,Egypt,0,0
+2016H1,twitter,El Salvador,4,0
+2016H1,twitter,Estonia,1,0
+2016H1,twitter,Finland,1,1
+2016H1,twitter,France,572,0.76
+2016H1,twitter,Germany,111,0.58
+2016H1,twitter,Greece,6,0.33
+2016H1,twitter,Hong Kong,1,0
+2016H1,twitter,India,139,0.31
+2016H1,twitter,Indonesia,6,0.67
+2016H1,twitter,Ireland,4,0.75
+2016H1,twitter,Israel,3,0.33
+2016H1,twitter,Italy,58,0.47
+2016H1,twitter,Japan,732,0.61
+2016H1,twitter,Jordan,5,0.2
+2016H1,twitter,Kenya,1,1
+2016H1,twitter,Kuwait,5,0.4
+2016H1,twitter,Lebanon,3,0
+2016H1,twitter,Lithuania,1,0
+2016H1,twitter,Luxembourg,0,0
+2016H1,twitter,Macedonia,2,0
+2016H1,twitter,Malaysia,4,0.25
+2016H1,twitter,Maldives,0,0
+2016H1,twitter,Malta,2,0
+2016H1,twitter,Mexico,6,0
+2016H1,twitter,Mongolia,1,0
+2016H1,twitter,Montenegro,0,0
+2016H1,twitter,Netherlands,8,0.38
+2016H1,twitter,New Zealand,0,0
+2016H1,twitter,Nigeria,1,1
+2016H1,twitter,Norway,2,1
+2016H1,twitter,Oman,0,0
+2016H1,twitter,Pakistan,6,0
+2016H1,twitter,Peru,0,0
+2016H1,twitter,Philippines,1,0
+2016H1,twitter,Poland,4,0
+2016H1,twitter,Portugal,3,0
+2016H1,twitter,Qatar,1,0
+2016H1,twitter,Russia,2,0
+2016H1,twitter,Saudi Arabia,99,0.85
+2016H1,twitter,Serbia,5,0.2
+2016H1,twitter,Singapore,7,0.57
+2016H1,twitter,South Korea,23,0.39
+2016H1,twitter,South Sudan,0,0
+2016H1,twitter,Spain,117,0.57
+2016H1,twitter,Sri Lanka,0,0
+2016H1,twitter,Sweden,7,0.57
+2016H1,twitter,Switzerland,2,0.5
+2016H1,twitter,Thailand,0,0
+2016H1,twitter,Trinidad and Tobago,0,0
+2016H1,twitter,Turkey,280,0
+2016H1,twitter,United Arab Emirates,19,0.26
+2016H1,twitter,United Kingdom,631,0.76
+2016H1,twitter,United States,2520,0.82
+2016H1,twitter,Venezuela,0,0
+2016H2,twitter,Albania,0,0
+2016H2,twitter,Argentina,76,0.26
+2016H2,twitter,Australia,22,0.64
+2016H2,twitter,Austria,1,1
+2016H2,twitter,Bahrain,0,0
+2016H2,twitter,Bangladesh,4,1
+2016H2,twitter,Belgium,21,0.48
+2016H2,twitter,Belize,0,0
+2016H2,twitter,Bermuda,0,0
+2016H2,twitter,Brazil,46,0.26
+2016H2,twitter,Bulgaria,0,0
+2016H2,twitter,Canada,51,0.8
+2016H2,twitter,Chile,6,0
+2016H2,twitter,Colombia,24,0.21
+2016H2,twitter,Croatia,0,0
+2016H2,twitter,Cyprus,0,0
+2016H2,twitter,Czech Republic,0,0
+2016H2,twitter,Denmark,2,1
+2016H2,twitter,Dominican Republic,0,0
+2016H2,twitter,Ecuador,1,1
+2016H2,twitter,Egypt,0,0
+2016H2,twitter,El Salvador,0,0
+2016H2,twitter,Estonia,1,0
+2016H2,twitter,Finland,0,0
+2016H2,twitter,France,501,0.69
+2016H2,twitter,Germany,275,0.54
+2016H2,twitter,Greece,4,0.25
+2016H2,twitter,Guatemala,5,0
+2016H2,twitter,Hong Kong,0,0
+2016H2,twitter,India,168,0.23
+2016H2,twitter,Indonesia,12,0.42
+2016H2,twitter,Ireland,4,0.25
+2016H2,twitter,Israel,1,1
+2016H2,twitter,Italy,37,0.27
+2016H2,twitter,Japan,977,0.64
+2016H2,twitter,Jordan,8,0.5
+2016H2,twitter,Kenya,0,0
+2016H2,twitter,Kuwait,7,0.43
+2016H2,twitter,Lebanon,2,0
+2016H2,twitter,Lithuania,0,0
+2016H2,twitter,Luxembourg,0,0
+2016H2,twitter,Macedonia,0,0
+2016H2,twitter,Malaysia,1,0
+2016H2,twitter,Maldives,0,0
+2016H2,twitter,Malta,1,1
+2016H2,twitter,Mexico,19,0.21
+2016H2,twitter,Mongolia,0,0
+2016H2,twitter,Montenegro,0,0
+2016H2,twitter,Netherlands,19,0.79
+2016H2,twitter,New Zealand,0,0
+2016H2,twitter,Nigeria,1,0
+2016H2,twitter,Norway,0,0
+2016H2,twitter,Oman,0,0
+2016H2,twitter,Pakistan,4,0
+2016H2,twitter,Peru,0,0
+2016H2,twitter,Philippines,0,0
+2016H2,twitter,Poland,10,0.3
+2016H2,twitter,Portugal,1,1
+2016H2,twitter,Qatar,2,0
+2016H2,twitter,Russia,0,0
+2016H2,twitter,Saudi Arabia,45,0.78
+2016H2,twitter,Serbia,12,0.17
+2016H2,twitter,Singapore,3,0.33
+2016H2,twitter,South Korea,46,0.54
+2016H2,twitter,South Sudan,0,0
+2016H2,twitter,Spain,130,0.62
+2016H2,twitter,Sri Lanka,0,0
+2016H2,twitter,Sweden,15,0.53
+2016H2,twitter,Switzerland,3,0.67
+2016H2,twitter,Taiwan,1,0
+2016H2,twitter,Thailand,0,0
+2016H2,twitter,Trinidad and Tobago,0,0
+2016H2,twitter,Turkey,493,0
+2016H2,twitter,Ukraine,1,0
+2016H2,twitter,United Arab Emirates,13,0.69
+2016H2,twitter,United Kingdom,681,0.79
+2016H2,twitter,United States,2304,0.82
+2016H2,twitter,Venezuela,1,0

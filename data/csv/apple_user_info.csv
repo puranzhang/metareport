@@ -1,0 +1,304 @@
+time,company,country,requests,approved
+2013H1,apple,Australia,74,0.54
+2013H1,apple,Austria,2,0.5
+2013H1,apple,Bahamas,1,1
+2013H1,apple,Belarus,1,0
+2013H1,apple,Belgium,13,0.38
+2013H1,apple,Brazil,8,0
+2013H1,apple,Canada,6,0.67
+2013H1,apple,China,6,0.33
+2013H1,apple,Czech Republic,2,0.5
+2013H1,apple,Denmark,11,0.55
+2013H1,apple,France,71,0.24
+2013H1,apple,Germany,93,0.06
+2013H1,apple,Hong Kong,32,0.75
+2013H1,apple,Ireland,5,0.6
+2013H1,apple,Italy,60,0.37
+2013H1,apple,Japan,42,0.24
+2013H1,apple,Netherlands,4,0.25
+2013H1,apple,New Zealand,3,0.33
+2013H1,apple,Norway,6,0.33
+2013H1,apple,Poland,1,0
+2013H1,apple,Portugal,2,1
+2013H1,apple,Russia,1,1
+2013H1,apple,San Marino,2,0
+2013H1,apple,Singapore,23,0.57
+2013H1,apple,South Korea,4,0.5
+2013H1,apple,Spain,102,0.22
+2013H1,apple,Sweden,7,0.43
+2013H1,apple,Switzerland,6,0.17
+2013H1,apple,Taiwan,4,0.75
+2013H1,apple,United Kingdom,127,0.37
+2013H1,apple,United States,1500,0.67
+2013H2,apple,Argentina,2,0
+2013H2,apple,Bahamas,0,0
+2013H2,apple,Brazil,4,0.5
+2013H2,apple,Mexico,1,1
+2013H2,apple,Australia,42,0.29
+2013H2,apple,China,2,0
+2013H2,apple,Hong Kong,4,0.25
+2013H2,apple,Indonesia,0,0
+2013H2,apple,Japan,28,0.18
+2013H2,apple,Malaysia,0,0
+2013H2,apple,New Zealand,3,0
+2013H2,apple,Singapore,6,0.17
+2013H2,apple,South Korea,2,0
+2013H2,apple,Taiwan,3,0
+2013H2,apple,United States of America,638,0.71
+2013H2,apple,Canada,9,0.67
+2013H2,apple,Austria,6,0.17
+2013H2,apple,Belarus,0,0
+2013H2,apple,Belgium,5,0.2
+2013H2,apple,Bulgaria,0,0
+2013H2,apple,Czech Republic,5,0.2
+2013H2,apple,Denmark,7,0.57
+2013H2,apple,Finland,2,0.5
+2013H2,apple,France,119,0.29
+2013H2,apple,Germany,147,0.46
+2013H2,apple,India,0,0
+2013H2,apple,Ireland,8,0.25
+2013H2,apple,Italy,40,0.28
+2013H2,apple,Luxembourg,9,0.89
+2013H2,apple,Netherlands,6,0
+2013H2,apple,Norway,8,0.25
+2013H2,apple,Poland,1,0
+2013H2,apple,Portugal,1,1
+2013H2,apple,Russia,3,0.33
+2013H2,apple,San Marino,0,0
+2013H2,apple,Spain,37,0.35
+2013H2,apple,Sweden,13,0.23
+2013H2,apple,Switzerland,13,0.15
+2013H2,apple,Turkey,2,1
+2013H2,apple,United Kingdom,151,0.38
+2014H1,apple,Argentina,0,0
+2014H1,apple,Bahamas,0,0
+2014H1,apple,Brazil,2,0
+2014H1,apple,Mexico,1,0
+2014H1,apple,Australia,93,0.14
+2014H1,apple,China,7,0.14
+2014H1,apple,Hong Kong,14,0.21
+2014H1,apple,Indonesia,1,0
+2014H1,apple,Japan,64,0.11
+2014H1,apple,Malaysia,2,0.5
+2014H1,apple,New Zealand,4,0.25
+2014H1,apple,Singapore,24,0.21
+2014H1,apple,South Korea,10,0.3
+2014H1,apple,Taiwan,7,0.14
+2014H1,apple,United States of America,789,0.77
+2014H1,apple,Canada,14,0.64
+2014H1,apple,Austria,6,0.83
+2014H1,apple,Belarus,0,0
+2014H1,apple,Belgium,4,0.5
+2014H1,apple,Bulgaria,1,0
+2014H1,apple,Czech Republic,0,0
+2014H1,apple,Denmark,4,0
+2014H1,apple,Finland,0,0
+2014H1,apple,France,72,0.31
+2014H1,apple,Germany,122,0.43
+2014H1,apple,India,2,0
+2014H1,apple,Ireland,7,0.14
+2014H1,apple,Italy,22,0.41
+2014H1,apple,Luxembourg,0,0
+2014H1,apple,Netherlands,6,0.33
+2014H1,apple,Norway,2,0.5
+2014H1,apple,Poland,3,0.67
+2014H1,apple,Portugal,0,0
+2014H1,apple,Russia,1,0
+2014H1,apple,San Marino,0,0
+2014H1,apple,Spain,10,0.3
+2014H1,apple,Sweden,13,0.38
+2014H1,apple,Switzerland,6,0.5
+2014H1,apple,Turkey,3,0.67
+2014H1,apple,United Kingdom,179,0.43
+2014H2,apple,Argentina,1,0
+2014H2,apple,Brazil,3,0.33
+2014H2,apple,Australia,82,0.3
+2014H2,apple,China,31,0.32
+2014H2,apple,Hong Kong,34,0.76
+2014H2,apple,Japan,73,0.6
+2014H2,apple,Malaysia,1,1
+2014H2,apple,New Zealand,3,0.33
+2014H2,apple,Singapore,24,0.79
+2014H2,apple,South Korea,21,0.14
+2014H2,apple,Taiwan,6,0.67
+2014H2,apple,United States of America,788,0.8
+2014H2,apple,Canada,7,0.57
+2014H2,apple,Austria,4,1
+2014H2,apple,Belgium,5,0.2
+2014H2,apple,Czech Republic,1,0
+2014H2,apple,Denmark,6,0.5
+2014H2,apple,France,43,0.26
+2014H2,apple,Germany,84,0.42
+2014H2,apple,India,4,0.25
+2014H2,apple,Ireland,1,1
+2014H2,apple,Italy,20,0.4
+2014H2,apple,Luxembourg,9,0.44
+2014H2,apple,Malta,1,1
+2014H2,apple,Netherlands,5,0.4
+2014H2,apple,Norway,5,0.2
+2014H2,apple,Poland,1,0
+2014H2,apple,Portugal,1,1
+2014H2,apple,Spain,19,0.26
+2014H2,apple,Sweden,6,0.33
+2014H2,apple,Switzerland,3,0.33
+2014H2,apple,Turkey,6,0.33
+2014H2,apple,United Kingdom,127,0.53
+2015H1,apple,Brazil,4,0.75
+2015H1,apple,Colombia,1,1
+2015H1,apple,Australia,98,0.12
+2015H1,apple,China,24,0.29
+2015H1,apple,Hong Kong,14,0.79
+2015H1,apple,Japan,51,0.39
+2015H1,apple,New Zealand,4,0.25
+2015H1,apple,Singapore,26,0.35
+2015H1,apple,South Korea,17,0.41
+2015H1,apple,Taiwan,13,0.54
+2015H1,apple,United States of America,971,0.81
+2015H1,apple,Canada,8,1
+2015H1,apple,Austria,7,0.57
+2015H1,apple,Belarus,2,1
+2015H1,apple,Belgium,1,1
+2015H1,apple,Cyprus,2,0.5
+2015H1,apple,Denmark,3,0.33
+2015H1,apple,France,43,0.49
+2015H1,apple,Germany,78,0.42
+2015H1,apple,Greece,5,0.8
+2015H1,apple,Hungary,3,0
+2015H1,apple,India,1,0
+2015H1,apple,Ireland,4,0
+2015H1,apple,Italy,29,0.48
+2015H1,apple,Malta,2,1
+2015H1,apple,Netherlands,3,0.33
+2015H1,apple,Norway,3,0.67
+2015H1,apple,Pakistan,2,0.5
+2015H1,apple,Portugal,2,1
+2015H1,apple,Romania,1,0
+2015H1,apple,Russia,3,0
+2015H1,apple,Spain,19,0.53
+2015H1,apple,Sweden,5,0.2
+2015H1,apple,Switzerland,5,0.2
+2015H1,apple,Turkey,6,0
+2015H1,apple,United Kingdom,207,0.63
+2015H2,apple,Australia,91,0.33
+2015H2,apple,China*,32,0.53
+2015H2,apple,Hong Kong,13,0.54
+2015H2,apple,Japan,55,0.49
+2015H2,apple,New Zealand,6,0
+2015H2,apple,Singapore,15,0.73
+2015H2,apple,South Korea,6,0.33
+2015H2,apple,Taiwan,5,0.6
+2015H2,apple,Austria,12,0.67
+2015H2,apple,Belgium,6,0.5
+2015H2,apple,Cyprus,1,0
+2015H2,apple,Czech Republic,5,0.2
+2015H2,apple,Denmark,4,0.25
+2015H2,apple,Finland,3,0.67
+2015H2,apple,France,60,0.3
+2015H2,apple,Germany,130,0.52
+2015H2,apple,India,3,0.67
+2015H2,apple,Ireland,8,0.63
+2015H2,apple,Italy,26,0.27
+2015H2,apple,Kuwait,1,0
+2015H2,apple,Luxembourg,2,0.5
+2015H2,apple,Malta,1,0
+2015H2,apple,Netherlands,13,0.38
+2015H2,apple,Norway,5,0.6
+2015H2,apple,Portugal,7,0.57
+2015H2,apple,Russia,3,0
+2015H2,apple,Spain,21,0.48
+2015H2,apple,Sweden,6,0.33
+2015H2,apple,Switzerland,8,0.38
+2015H2,apple,Turkey,3,0.67
+2015H2,apple,United Kingdom,208,0.58
+2015H2,apple,Brazil,32,0.97
+2015H2,apple,Dominican Republic,1,1
+2015H2,apple,Canada,6,1
+2015H2,apple,United States of America,1015,0.82
+2016H1,apple,Australia,108,0.51
+2016H1,apple,China*,31,0.87
+2016H1,apple,Hong Kong,23,0.61
+2016H1,apple,Japan,160,0.56
+2016H1,apple,Macau,4,0.5
+2016H1,apple,New Zealand,4,0.25
+2016H1,apple,Singapore,28,0.75
+2016H1,apple,South Korea,23,0.39
+2016H1,apple,Taiwan,49,0.82
+2016H1,apple,Austria,5,0.4
+2016H1,apple,Belarus,1,1
+2016H1,apple,Belgium,2,1
+2016H1,apple,Czech Republic,2,0.5
+2016H1,apple,Denmark,1,1
+2016H1,apple,Estonia,3,1
+2016H1,apple,Finland,2,0.5
+2016H1,apple,France,75,0.47
+2016H1,apple,Germany,203,0.52
+2016H1,apple,Greece,1,1
+2016H1,apple,Hungary,4,0.5
+2016H1,apple,India,11,0.82
+2016H1,apple,Ireland,5,0.6
+2016H1,apple,Israel,1,0
+2016H1,apple,Italy,45,0.38
+2016H1,apple,Luxembourg,7,0.29
+2016H1,apple,Malta,3,1
+2016H1,apple,Netherlands,10,0.5
+2016H1,apple,Norway,6,0.5
+2016H1,apple,Poland,5,0.2
+2016H1,apple,Portugal,5,0.4
+2016H1,apple,Russia,4,0.25
+2016H1,apple,Slovenia,1,1
+2016H1,apple,Spain,39,0.49
+2016H1,apple,Sweden,10,0.8
+2016H1,apple,Switzerland,2,1
+2016H1,apple,Turkey,9,0.44
+2016H1,apple,United Kingdom,271,0.67
+2016H1,apple,Argentina,1,1
+2016H1,apple,Brazil,33,0.88
+2016H1,apple,Chile,1,1
+2016H1,apple,Paraguay,1,0
+2016H1,apple,Canada,2,1
+2016H1,apple,United States of America,1363,0.84
+2016H2,apple,Australia,91,0.65
+2016H2,apple,China,25,0.88
+2016H2,apple,Hong Kong,8,0.63
+2016H2,apple,Japan,115,0.77
+2016H2,apple,New Zealand,4,0.75
+2016H2,apple,Singapore,30,0.83
+2016H2,apple,South Korea,8,0.75
+2016H2,apple,Taiwan,65,0.82
+2016H2,apple,Armenia,1,1
+2016H2,apple,Austria,3,0.33
+2016H2,apple,Belgium,4,0.5
+2016H2,apple,Czech Republic,4,1
+2016H2,apple,Denmark,8,0.63
+2016H2,apple,Estonia,2,1
+2016H2,apple,Finland,1,0
+2016H2,apple,France,70,0.59
+2016H2,apple,Germany,159,0.7
+2016H2,apple,Greece,3,1
+2016H2,apple,Hungary,3,1
+2016H2,apple,Iceland,1,1
+2016H2,apple,India,18,0.89
+2016H2,apple,Ireland,2,0.5
+2016H2,apple,Israel,2,0.5
+2016H2,apple,Italy,44,0.89
+2016H2,apple,Luxembourg,2,0.5
+2016H2,apple,Malta,3,1
+2016H2,apple,Netherlands,6,1
+2016H2,apple,Norway,3,0.33
+2016H2,apple,Pakistan,1,1
+2016H2,apple,Poland,5,0.8
+2016H2,apple,Portugal,4,0.75
+2016H2,apple,Qatar,1,0
+2016H2,apple,Russia,4,0.25
+2016H2,apple,South Africa,1,1
+2016H2,apple,Spain,20,0.55
+2016H2,apple,Sweden,18,0.78
+2016H2,apple,Switzerland,3,1
+2016H2,apple,Turkey,7,0.71
+2016H2,apple,United Kingdom,199,0.77
+2016H2,apple,Argentina,3,0.33
+2016H2,apple,Brazil,56,0.8
+2016H2,apple,Chile,1,1
+2016H2,apple,Dominican Republic,1,1
+2016H2,apple,Canada,3,1
+2016H2,apple,United States of America,1219,0.83

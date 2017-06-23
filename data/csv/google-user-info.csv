@@ -1,0 +1,1067 @@
+time,company,country,requests,approved
+2009H2,google,Japan,44,
+2009H2,google,United Kingdom,1166,
+2009H2,google,Canada,41,
+2009H2,google,Chile,110,
+2009H2,google,France,846,
+2009H2,google,Spain,324,
+2009H2,google,India,1061,
+2009H2,google,Netherlands,67,
+2009H2,google,Singapore,62,
+2009H2,google,United States,3580,
+2009H2,google,Argentina,98,
+2009H2,google,Poland,86,
+2009H2,google,South Korea,44,
+2009H2,google,Germany,458,
+2009H2,google,Australia,155,
+2009H2,google,Italy,550,
+2009H2,google,Switzerland,42,
+2009H2,google,Brazil,3663,
+2009H2,google,Israel,30,
+2009H2,google,Belgium,67,
+2009H2,google,Portugal,45,
+2010H1,google,Japan,56,
+2010H1,google,United Kingdom,1343,
+2010H1,google,Chile,115,
+2010H1,google,France,1017,
+2010H1,google,Spain,372,
+2010H1,google,India,1430,
+2010H1,google,Singapore,106,
+2010H1,google,United States,4287,
+2010H1,google,Argentina,134,
+2010H1,google,South Korea,170,
+2010H1,google,Germany,668,
+2010H1,google,Australia,200,
+2010H1,google,Italy,651,
+2010H1,google,Turkey,51,
+2010H1,google,Hong Kong,50,
+2010H1,google,Switzerland,35,
+2010H1,google,Brazil,2435,
+2010H1,google,Taiwan,130,
+2010H1,google,Israel,30,
+2010H1,google,Belgium,71,
+2010H1,google,Portugal,73,
+2010H2,google,Japan,72,0.9
+2010H2,google,France,1021,0.56
+2010H2,google,Chile,121,0.66
+2010H2,google,Canada,38,0.55
+2010H2,google,Spain,359,0.61
+2010H2,google,Singapore,118,0.88
+2010H2,google,Germany,768,0.76
+2010H2,google,Australia,345,0.81
+2010H2,google,Turkey,45,0
+2010H2,google,Hong Kong,90,0.59
+2010H2,google,Hungary,68,0
+2010H2,google,Brazil,1804,0.76
+2010H2,google,Belgium,85,0.73
+2010H2,google,United Kingdom,1162,0.72
+2010H2,google,India,1699,0.79
+2010H2,google,Netherlands,43,0.67
+2010H2,google,United States,4601,0.94
+2010H2,google,Argentina,127,0.4
+2010H2,google,Poland,272,0.12
+2010H2,google,South Korea,190,0.45
+2010H2,google,Italy,837,0.6
+2010H2,google,Taiwan,156,0.65
+2010H2,google,Israel,54,0.76
+2010H2,google,Portugal,92,0.43
+2010H2,google,Mexico,34,0.56
+2011H1,google,Japan,75,0.87
+2011H1,google,France,1312,0.47
+2011H1,google,Chile,118,0.42
+2011H1,google,Canada,50,0.48
+2011H1,google,Spain,460,0.63
+2011H1,google,Singapore,106,0.75
+2011H1,google,Germany,1065,0.66
+2011H1,google,Australia,361,0.73
+2011H1,google,Turkey,73,0
+2011H1,google,Hong Kong,123,0.42
+2011H1,google,Hungary,81,0
+2011H1,google,Brazil,703,0.87
+2011H1,google,Belgium,90,0.67
+2011H1,google,Russia,42,0
+2011H1,google,United Kingdom,1279,0.63
+2011H1,google,India,1739,0.7
+2011H1,google,Netherlands,64,0.48
+2011H1,google,United States,5950,0.93
+2011H1,google,Argentina,134,0.32
+2011H1,google,Poland,266,0.11
+2011H1,google,South Korea,259,0.37
+2011H1,google,Italy,934,0.6
+2011H1,google,Switzerland,36,0.69
+2011H1,google,Taiwan,155,0.81
+2011H1,google,Israel,60,0.6
+2011H1,google,Portugal,161,0.5
+2011H1,google,Mexico,48,0.42
+2011H2,google,Japan,90,0.59
+2011H2,google,France,1404,0.44
+2011H2,google,Chile,117,0.43
+2011H2,google,Canada,41,0.24
+2011H2,google,Spain,388,0.51
+2011H2,google,Singapore,102,0.83
+2011H2,google,Germany,1426,0.45
+2011H2,google,Australia,444,0.65
+2011H2,google,Turkey,88,0
+2011H2,google,Hong Kong,202,0.51
+2011H2,google,Hungary,73,0
+2011H2,google,Brazil,1615,0.9
+2011H2,google,Norway,49,0.69
+2011H2,google,Belgium,99,0.67
+2011H2,google,Russia,58,0
+2011H2,google,United Kingdom,1455,0.64
+2011H2,google,India,2207,0.66
+2011H2,google,Netherlands,37,0.59
+2011H2,google,United States,6321,0.93
+2011H2,google,Argentina,141,0.33
+2011H2,google,Poland,241,0.22
+2011H2,google,South Korea,257,0.37
+2011H2,google,Italy,844,0.51
+2011H2,google,Switzerland,69,0.67
+2011H2,google,Taiwan,224,0.75
+2011H2,google,Israel,51,0.61
+2011H2,google,Portugal,147,0.29
+2011H2,google,Mexico,67,0.25
+2012H1,google,Japan,104,0.86
+2012H1,google,France,1546,0.42
+2012H1,google,Chile,101,0.45
+2012H1,google,Canada,50,0.24
+2012H1,google,Spain,531,0.52
+2012H1,google,Singapore,89,0.7
+2012H1,google,Germany,1533,0.39
+2012H1,google,Australia,523,0.64
+2012H1,google,Turkey,112,0
+2012H1,google,Hong Kong,192,0.33
+2012H1,google,Hungary,92,0
+2012H1,google,Czechia,44,0.32
+2012H1,google,Brazil,1566,0.76
+2012H1,google,Norway,37,0.7
+2012H1,google,Belgium,107,0.67
+2012H1,google,Denmark,32,0.78
+2012H1,google,Russia,58,0
+2012H1,google,United Kingdom,1425,0.64
+2012H1,google,India,2319,0.64
+2012H1,google,Netherlands,59,0.76
+2012H1,google,United States,7969,0.9
+2012H1,google,Argentina,137,0.38
+2012H1,google,Poland,351,0.21
+2012H1,google,South Korea,423,0.35
+2012H1,google,Italy,841,0.34
+2012H1,google,Switzerland,82,0.68
+2012H1,google,Taiwan,271,0.63
+2012H1,google,Israel,55,0.6
+2012H1,google,Ireland,34,0.06
+2012H1,google,Portugal,184,0.14
+2012H1,google,Mexico,71,0.45
+2012H2,google,Japan,124,0.62
+2012H2,google,France,1693,0.44
+2012H2,google,Chile,109,0.58
+2012H2,google,Canada,38,0.24
+2012H2,google,Spain,447,0.49
+2012H2,google,Singapore,96,0.75
+2012H2,google,Germany,1550,0.42
+2012H2,google,Australia,584,0.65
+2012H2,google,Turkey,149,0
+2012H2,google,Hong Kong,255,0.31
+2012H2,google,Hungary,95,0
+2012H2,google,Czechia,51,0.31
+2012H2,google,Brazil,1211,0.66
+2012H2,google,Belgium,120,0.63
+2012H2,google,Denmark,34,0.59
+2012H2,google,Russia,97,0.01
+2012H2,google,United Kingdom,1458,0.7
+2012H2,google,India,2431,0.66
+2012H2,google,United States,1896,0.88
+2012H2,google,United States,758,0.9
+2012H2,google,United States,5784,0.88
+2012H2,google,Argentina,114,0.38
+2012H2,google,Poland,409,0.17
+2012H2,google,South Korea,355,0.3
+2012H2,google,Italy,846,0.34
+2012H2,google,Switzerland,49,0.67
+2012H2,google,Taiwan,290,0.74
+2012H2,google,Israel,56,0.59
+2012H2,google,Portugal,200,0.3
+2012H2,google,Mexico,90,0.24
+2013H1,google,Japan,194,0.58
+2013H1,google,France,2011,0.49
+2013H1,google,Chile,106,0.51
+2013H1,google,Canada,49,0.27
+2013H1,google,Spain,647,0.55
+2013H1,google,Singapore,111,0.59
+2013H1,google,Germany,2311,0.48
+2013H1,google,Australia,645,0.64
+2013H1,google,Turkey,204,0
+2013H1,google,Hong Kong,253,0.34
+2013H1,google,Hungary,86,0
+2013H1,google,Czechia,63,0.41
+2013H1,google,Brazil,1239,0.65
+2013H1,google,Belgium,194,0.66
+2013H1,google,Denmark,37,0.65
+2013H1,google,Russia,103,0
+2013H1,google,United Kingdom,1274,0.67
+2013H1,google,India,2691,0.64
+2013H1,google,Netherlands,45,0.64
+2013H1,google,United States,119,0.81
+2013H1,google,United States,671,0.69
+2013H1,google,United States,2456,0.81
+2013H1,google,United States,207,0.89
+2013H1,google,United States,7458,0.84
+2013H1,google,United States,7,1
+2013H1,google,Argentina,114,0.48
+2013H1,google,Poland,496,0.23
+2013H1,google,South Korea,357,0.31
+2013H1,google,Italy,901,0.38
+2013H1,google,Switzerland,80,0.73
+2013H1,google,Taiwan,306,0.66
+2013H1,google,Israel,64,0.59
+2013H1,google,Sweden,36,0.33
+2013H1,google,Portugal,261,0.3
+2013H1,google,Mexico,83,0.39
+2013H2,google,Nigeria,2,0
+2013H2,google,Trinidad & Tobago,1,0
+2013H2,google,Canada,52,0.25
+2013H2,google,Chile,141,0.45
+2013H2,google,Colombia,14,0
+2013H2,google,Vatican City,1,0
+2013H2,google,C’‚te d¥Ë_—ÈIvoire,2,0
+2013H2,google,Singapore,755,0.68
+2013H2,google,Malta,54,0.83
+2013H2,google,Macau,3,0
+2013H2,google,Georgia,2,0
+2013H2,google,South Africa,2,0
+2013H2,google,Turkey,133,0.01
+2013H2,google,Costa Rica,1,0
+2013H2,google,Greece,13,0.15
+2013H2,google,Hungary,42,0
+2013H2,google,Thailand,14,0
+2013H2,google,Lithuania,11,0.64
+2013H2,google,Malaysia,2,0
+2013H2,google,Belgium,162,0.73
+2013H2,google,Russia,90,0.03
+2013H2,google,Slovakia,34,0.15
+2013H2,google,Estonia,2,0.5
+2013H2,google,Lebanon,3,0
+2013H2,google,Argentina,123,0.51
+2013H2,google,Finland,13,0.92
+2013H2,google,Romania,16,0.56
+2013H2,google,Slovenia,1,0
+2013H2,google,Switzerland,111,0.67
+2013H2,google,Taiwan,439,0.61
+2013H2,google,Israel,43,0.65
+2013H2,google,Ireland,15,0.27
+2013H2,google,Bulgaria,1,0
+2013H2,google,Peru,2,0
+2013H2,google,Japan,111,0.6
+2013H2,google,France,2750,0.51
+2013H2,google,Spain,545,0.53
+2013H2,google,Croatia,3,0
+2013H2,google,New Zealand,14,0.57
+2013H2,google,Germany,2660,0.4
+2013H2,google,Australia,780,0.7
+2013H2,google,Mauritius,1,0
+2013H2,google,Hong Kong,347,0.37
+2013H2,google,Czechia,74,0.39
+2013H2,google,Brazil,1085,0.49
+2013H2,google,Norway,37,0.73
+2013H2,google,Denmark,58,0.62
+2013H2,google,Kenya,8,0.63
+2013H2,google,United Kingdom,1397,0.69
+2013H2,google,India,2513,0.66
+2013H2,google,Netherlands,53,0.75
+2013H2,google,United States,153,0.78
+2013H2,google,United States,689,0.75
+2013H2,google,United States,2537,0.81
+2013H2,google,United States,140,0.9
+2013H2,google,United States,7044,0.84
+2013H2,google,United States,11,1
+2013H2,google,Poland,502,0.23
+2013H2,google,South Korea,353,0.31
+2013H2,google,Italy,896,0.42
+2013H2,google,Liechtenstein,1,0
+2013H2,google,Ecuador,3,0
+2013H2,google,United Arab Emirates,2,0
+2013H2,google,Ukraine,1,0
+2013H2,google,Pakistan,3,0
+2013H2,google,Sweden,18,0.28
+2013H2,google,China,1,0
+2013H2,google,Portugal,283,0.45
+2013H2,google,Austria,23,0.26
+2013H2,google,Mexico,81,0.64
+2014H1,google,Nigeria,3,0
+2014H1,google,Canada,27,0.33
+2014H1,google,Chile,137,0.39
+2014H1,google,Colombia,14,0.07
+2014H1,google,Singapore,1086,0.61
+2014H1,google,Malta,42,0.67
+2014H1,google,Macau,5,0
+2014H1,google,South Africa,7,0
+2014H1,google,Turkey,224,0
+2014H1,google,Costa Rica,0,0
+2014H1,google,Greece,16,0.38
+2014H1,google,Hungary,17,0
+2014H1,google,Thailand,10,0
+2014H1,google,Lithuania,6,0.83
+2014H1,google,Malaysia,15,0
+2014H1,google,Iceland,0,0
+2014H1,google,Belgium,213,0.73
+2014H1,google,Russia,93,0.1
+2014H1,google,Slovakia,29,0.07
+2014H1,google,Kosovo,1,0
+2014H1,google,Luxembourg,1,0
+2014H1,google,Estonia,3,0.67
+2014H1,google,Argentina,139,0.55
+2014H1,google,Finland,17,0.94
+2014H1,google,Guernsey,2,0.5
+2014H1,google,Romania,20,0.6
+2014H1,google,Paraguay,0,0
+2014H1,google,Slovenia,4,0.5
+2014H1,google,Switzerland,124,0.68
+2014H1,google,Taiwan,548,0.03
+2014H1,google,Israel,88,0.66
+2014H1,google,Ireland,10,0.3
+2014H1,google,Albania,1,0
+2014H1,google,Bulgaria,1,0
+2014H1,google,Peru,5,0
+2014H1,google,Japan,121,0.77
+2014H1,google,France,3002,0.59
+2014H1,google,Spain,696,0.46
+2014H1,google,Croatia,1,0
+2014H1,google,New Zealand,24,0.79
+2014H1,google,Germany,3338,0.48
+2014H1,google,Australia,752,0.66
+2014H1,google,Hong Kong,359,0.48
+2014H1,google,Czechia,99,0.57
+2014H1,google,Brazil,684,0.55
+2014H1,google,Norway,45,0.56
+2014H1,google,Denmark,52,0.5
+2014H1,google,Kenya,2,0
+2014H1,google,United Kingdom,1535,0.72
+2014H1,google,India,2794,0.61
+2014H1,google,Maldives,2,0
+2014H1,google,Netherlands,72,0.82
+2014H1,google,United States,171,0.65
+2014H1,google,United States,798,0.78
+2014H1,google,United States,3187,0.84
+2014H1,google,United States,165,0.91
+2014H1,google,United States,8211,0.84
+2014H1,google,United States,7,1
+2014H1,google,Poland,591,0.28
+2014H1,google,South Korea,416,0.29
+2014H1,google,Namibia,1,0
+2014H1,google,Indonesia,1,0
+2014H1,google,Egypt,1,0
+2014H1,google,Italy,1108,0.43
+2014H1,google,Liechtenstein,2,0
+2014H1,google,Nepal,1,0
+2014H1,google,Ecuador,1,0
+2014H1,google,Ukraine,2,0.5
+2014H1,google,Pakistan,7,0
+2014H1,google,Sweden,42,0.31
+2014H1,google,China,2,0.5
+2014H1,google,Portugal,338,0.53
+2014H1,google,Austria,47,0.34
+2014H1,google,Dominican Republic,2,0
+2014H1,google,Mexico,111,0.71
+2014H2,google,Nigeria,1,0
+2014H2,google,Canada,18,0.78
+2014H2,google,Canada,26,0
+2014H2,google,Canada,26,0.23
+2014H2,google,Chile,175,0.47
+2014H2,google,Colombia,6,0.33
+2014H2,google,Colombia,3,0
+2014H2,google,Colombia,13,0
+2014H2,google,Singapore,1410,0.68
+2014H2,google,Malta,57,0.51
+2014H2,google,Macau,3,0
+2014H2,google,South Africa,3,0
+2014H2,google,South Africa,3,0
+2014H2,google,Turkey,1,0
+2014H2,google,Turkey,344,0
+2014H2,google,Costa Rica,2,0
+2014H2,google,Greece,9,0.44
+2014H2,google,Greece,13,0.31
+2014H2,google,Hungary,1,0
+2014H2,google,Hungary,21,0
+2014H2,google,Thailand,4,0
+2014H2,google,Lithuania,6,0.67
+2014H2,google,Malaysia,11,0
+2014H2,google,Belgium,6,0.67
+2014H2,google,Belgium,7,0
+2014H2,google,Belgium,208,0.67
+2014H2,google,Russia,134,0.05
+2014H2,google,Slovakia,33,0.09
+2014H2,google,Estonia,5,0.2
+2014H2,google,Argentina,1,1
+2014H2,google,Argentina,3,0
+2014H2,google,Argentina,186,0.54
+2014H2,google,Finland,2,0
+2014H2,google,Finland,18,0.72
+2014H2,google,Serbia,1,0
+2014H2,google,Romania,29,0.48
+2014H2,google,Switzerland,2,0
+2014H2,google,Switzerland,130,0.65
+2014H2,google,Slovenia,1,1
+2014H2,google,Taiwan,1,0
+2014H2,google,Taiwan,216,0.3
+2014H2,google,Israel,2,0
+2014H2,google,Israel,1,0
+2014H2,google,Israel,94,0.71
+2014H2,google,Ireland,1,1
+2014H2,google,Ireland,17,0
+2014H2,google,Ireland,6,0.5
+2014H2,google,Albania,1,0
+2014H2,google,Peru,8,0
+2014H2,google,Bosnia & Herzegovina,1,0
+2014H2,google,Japan,4,0.5
+2014H2,google,Japan,56,0
+2014H2,google,Japan,127,0.82
+2014H2,google,France,4,0.5
+2014H2,google,France,6,0
+2014H2,google,France,3069,0.57
+2014H2,google,Spain,1,1
+2014H2,google,Spain,3,0
+2014H2,google,Spain,697,0.53
+2014H2,google,Croatia,2,0
+2014H2,google,Kazakhstan,1,0
+2014H2,google,New Zealand,1,1
+2014H2,google,New Zealand,2,0
+2014H2,google,New Zealand,40,0.7
+2014H2,google,Tonga,1,0
+2014H2,google,Germany,2,0.5
+2014H2,google,Germany,25,0
+2014H2,google,Germany,3112,0.53
+2014H2,google,Moldova,1,0
+2014H2,google,Australia,1,1
+2014H2,google,Australia,94,0
+2014H2,google,Australia,958,0.66
+2014H2,google,Hong Kong,367,0.43
+2014H2,google,Czechia,4,0
+2014H2,google,Czechia,117,0.5
+2014H2,google,Brazil,24,0
+2014H2,google,Brazil,784,0.52
+2014H2,google,Norway,4,0
+2014H2,google,Norway,48,0.48
+2014H2,google,Denmark,1,0
+2014H2,google,Denmark,1,0
+2014H2,google,Denmark,66,0.55
+2014H2,google,Vietnam,1,0
+2014H2,google,Kenya,1,0
+2014H2,google,Kenya,4,0
+2014H2,google,United Kingdom,190,0.94
+2014H2,google,United Kingdom,70,0
+2014H2,google,United Kingdom,1890,0.73
+2014H2,google,India,12,0.42
+2014H2,google,India,19,0
+2014H2,google,India,3100,0.61
+2014H2,google,Netherlands,1,0
+2014H2,google,Netherlands,5,0
+2014H2,google,Netherlands,139,0.81
+2014H2,google,Philippines,1,0
+2014H2,google,Philippines,1,0
+2014H2,google,United States,171,0.8
+2014H2,google,United States,758,0.75
+2014H2,google,United States,4290,0
+2014H2,google,United States,3127,0.83
+2014H2,google,United States,165,0.95
+2014H2,google,United States,5755,0.76
+2014H2,google,United States,5,0.8
+2014H2,google,Poland,10,0.4
+2014H2,google,Poland,2,0
+2014H2,google,Poland,445,0.31
+2014H2,google,South Korea,325,0.38
+2014H2,google,Egypt,1,0
+2014H2,google,Italy,5,0.4
+2014H2,google,Italy,14,0
+2014H2,google,Italy,909,0.45
+2014H2,google,Armenia,1,0
+2014H2,google,Ecuador,1,0
+2014H2,google,Ukraine,1,0
+2014H2,google,Ukraine,2,0
+2014H2,google,Pakistan,1,0
+2014H2,google,Sweden,3,0
+2014H2,google,Sweden,22,0.41
+2014H2,google,China,1,0
+2014H2,google,Latvia,0,0
+2014H2,google,Portugal,7,0
+2014H2,google,Portugal,309,0.54
+2014H2,google,Austria,24,0.13
+2014H2,google,Mexico,4,0.5
+2014H2,google,Mexico,152,0.49
+2015H1,google,Nigeria,1,0
+2015H1,google,Canada,18,0.83
+2015H1,google,Canada,35,0
+2015H1,google,Canada,23,0.35
+2015H1,google,Chile,1,0
+2015H1,google,Chile,192,0.54
+2015H1,google,Colombia,17,0.29
+2015H1,google,Colombia,6,0
+2015H1,google,Colombia,16,0
+2015H1,google,United Nations,1,0
+2015H1,google,Singapore,3,1
+2015H1,google,Singapore,1,0
+2015H1,google,Singapore,1405,0.77
+2015H1,google,Malta,112,0.54
+2015H1,google,Macau,2,0
+2015H1,google,South Africa,1,0
+2015H1,google,Macedonia (FYROM),3,0
+2015H1,google,Macedonia (FYROM),4,0
+2015H1,google,Turkey,1,0
+2015H1,google,Turkey,425,0
+2015H1,google,Costa Rica,3,0
+2015H1,google,Costa Rica,1,0
+2015H1,google,Greece,14,0.57
+2015H1,google,Greece,4,0
+2015H1,google,Greece,25,0.6
+2015H1,google,Hungary,50,0
+2015H1,google,Thailand,8,0
+2015H1,google,Lithuania,1,0
+2015H1,google,Lithuania,32,0.59
+2015H1,google,Malaysia,2,0.5
+2015H1,google,Malaysia,3,0
+2015H1,google,Seychelles,1,0
+2015H1,google,Cyprus,1,0
+2015H1,google,Belgium,2,1
+2015H1,google,Belgium,8,0
+2015H1,google,Belgium,241,0.71
+2015H1,google,Russia,207,0.05
+2015H1,google,Slovakia,47,0.23
+2015H1,google,Azerbaijan,1,0
+2015H1,google,Brunei,1,0
+2015H1,google,Kosovo,1,0
+2015H1,google,Luxembourg,4,0
+2015H1,google,Estonia,11,0.91
+2015H1,google,Argentina,1,1
+2015H1,google,Argentina,243,0.5
+2015H1,google,Finland,6,0
+2015H1,google,Finland,27,0.7
+2015H1,google,Serbia,2,0.5
+2015H1,google,Serbia,1,0
+2015H1,google,Romania,25,0.56
+2015H1,google,Switzerland,1,0
+2015H1,google,Switzerland,2,0
+2015H1,google,Switzerland,136,0.54
+2015H1,google,Slovenia,1,0
+2015H1,google,Slovenia,3,0.67
+2015H1,google,Taiwan,1,0
+2015H1,google,Taiwan,181,0.42
+2015H1,google,Israel,1,0
+2015H1,google,Israel,145,0.61
+2015H1,google,Ireland,2,0
+2015H1,google,Ireland,20,0
+2015H1,google,Ireland,12,0.17
+2015H1,google,Bulgaria,3,0
+2015H1,google,Bosnia & Herzegovina,2,0
+2015H1,google,Japan,20,0.7
+2015H1,google,Japan,53,0
+2015H1,google,Japan,134,0.83
+2015H1,google,France,7,0.57
+2015H1,google,France,6,0
+2015H1,google,France,3482,0.56
+2015H1,google,Spain,3,0
+2015H1,google,Spain,715,0.51
+2015H1,google,Kazakhstan,1,0
+2015H1,google,New Zealand,4,0.25
+2015H1,google,New Zealand,2,0
+2015H1,google,New Zealand,36,0.69
+2015H1,google,Germany,9,0.56
+2015H1,google,Germany,24,0
+2015H1,google,Germany,3894,0.58
+2015H1,google,Moldova,1,1
+2015H1,google,Moldova,3,0
+2015H1,google,Australia,6,0.67
+2015H1,google,Australia,104,0
+2015H1,google,Australia,1074,0.7
+2015H1,google,Hong Kong,246,0.35
+2015H1,google,Czechia,1,0
+2015H1,google,Czechia,6,0
+2015H1,google,Czechia,133,0.53
+2015H1,google,Brazil,10,0
+2015H1,google,Brazil,774,0.57
+2015H1,google,Norway,2,0
+2015H1,google,Norway,35,0.66
+2015H1,google,Denmark,1,0
+2015H1,google,Denmark,55,0.55
+2015H1,google,Kenya,1,0
+2015H1,google,Kenya,2,0
+2015H1,google,United Kingdom,302,0.92
+2015H1,google,United Kingdom,67,0
+2015H1,google,United Kingdom,2844,0.73
+2015H1,google,India,6,0.17
+2015H1,google,India,19,0
+2015H1,google,India,3081,0.44
+2015H1,google,Maldives,1,1
+2015H1,google,Maldives,3,0
+2015H1,google,Netherlands,6,0.67
+2015H1,google,Netherlands,6,0
+2015H1,google,Netherlands,156,0.74
+2015H1,google,United States,236,0.69
+2015H1,google,United States,929,0.78
+2015H1,google,United States,5052,0
+2015H1,google,United States,3588,0.85
+2015H1,google,United States,212,0.88
+2015H1,google,United States,7032,0.74
+2015H1,google,United States,5,1
+2015H1,google,Poland,8,0.63
+2015H1,google,Poland,1,0
+2015H1,google,Poland,621,0.24
+2015H1,google,South Korea,7,0.29
+2015H1,google,South Korea,299,0.36
+2015H1,google,Indonesia,2,0
+2015H1,google,Italy,2,0
+2015H1,google,Italy,10,0
+2015H1,google,Italy,956,0.43
+2015H1,google,Nepal,1,0
+2015H1,google,Pakistan,2,0.5
+2015H1,google,Pakistan,1,0
+2015H1,google,Pakistan,2,0
+2015H1,google,Sweden,3,0.33
+2015H1,google,Sweden,4,0
+2015H1,google,Sweden,28,0.36
+2015H1,google,Latvia,0,0
+2015H1,google,Portugal,13,0
+2015H1,google,Portugal,550,0.54
+2015H1,google,Austria,1,0
+2015H1,google,Austria,33,0.21
+2015H1,google,Mexico,2,0
+2015H1,google,Mexico,162,0.45
+2015H2,google,Canada,29,0.69
+2015H2,google,Canada,51,0
+2015H2,google,Canada,31,0.35
+2015H2,google,Chile,183,0.46
+2015H2,google,Colombia,8,0.13
+2015H2,google,Colombia,4,0
+2015H2,google,Colombia,24,0
+2015H2,google,Vatican City,2,0
+2015H2,google,Singapore,4,0.75
+2015H2,google,Singapore,1377,0.66
+2015H2,google,Malta,80,0.71
+2015H2,google,Macau,1,0
+2015H2,google,Turkey,333,0
+2015H2,google,Costa Rica,6,0
+2015H2,google,Costa Rica,1,0
+2015H2,google,Greece,9,0.44
+2015H2,google,Greece,1,0
+2015H2,google,Greece,21,0.38
+2015H2,google,Hungary,53,0
+2015H2,google,Thailand,1,0
+2015H2,google,Thailand,10,0
+2015H2,google,Lithuania,3,0.67
+2015H2,google,Lithuania,3,0
+2015H2,google,Lithuania,43,0.6
+2015H2,google,Malaysia,1,0
+2015H2,google,Malaysia,4,0
+2015H2,google,Belgium,6,0.5
+2015H2,google,Belgium,7,0
+2015H2,google,Belgium,262,0.73
+2015H2,google,Bermuda,1,0
+2015H2,google,Russia,257,0.07
+2015H2,google,Slovakia,30,0.17
+2015H2,google,Kosovo,2,0
+2015H2,google,Luxembourg,1,1
+2015H2,google,Luxembourg,2,0
+2015H2,google,Monaco,3,0
+2015H2,google,Estonia,1,0
+2015H2,google,Estonia,1,0
+2015H2,google,Estonia,26,0.65
+2015H2,google,Argentina,436,0.59
+2015H2,google,Finland,1,0
+2015H2,google,Finland,3,0
+2015H2,google,Finland,51,0.75
+2015H2,google,Serbia,1,0
+2015H2,google,Serbia,1,0
+2015H2,google,Guernsey,2,0.5
+2015H2,google,Romania,14,0.57
+2015H2,google,Slovenia,1,0
+2015H2,google,Slovenia,8,1
+2015H2,google,Switzerland,7,0
+2015H2,google,Switzerland,69,0.13
+2015H2,google,Taiwan,3,0.67
+2015H2,google,Taiwan,138,0.49
+2015H2,google,Bangladesh,4,1
+2015H2,google,Bangladesh,3,0
+2015H2,google,Israel,17,0.12
+2015H2,google,Israel,1,0
+2015H2,google,Israel,105,0.61
+2015H2,google,Ireland,1,0
+2015H2,google,Ireland,23,0
+2015H2,google,Ireland,14,0.43
+2015H2,google,Bulgaria,2,0
+2015H2,google,Peru,2,0
+2015H2,google,Bosnia & Herzegovina,1,1
+2015H2,google,Japan,13,0.69
+2015H2,google,Japan,42,0
+2015H2,google,Japan,150,0.87
+2015H2,google,France,14,0.29
+2015H2,google,France,5,0
+2015H2,google,France,4160,0.59
+2015H2,google,Spain,2,0.5
+2015H2,google,Spain,1,0
+2015H2,google,Spain,597,0.52
+2015H2,google,Jordan,1,0
+2015H2,google,Kazakhstan,2,0
+2015H2,google,New Zealand,5,0
+2015H2,google,New Zealand,23,0.61
+2015H2,google,Germany,26,0.62
+2015H2,google,Germany,12,0
+2015H2,google,Germany,7465,0.57
+2015H2,google,Moldova,1,1
+2015H2,google,Australia,8,0.25
+2015H2,google,Australia,76,0
+2015H2,google,Australia,1250,0.7
+2015H2,google,Hong Kong,3,0.67
+2015H2,google,Hong Kong,135,0.42
+2015H2,google,Czechia,2,1
+2015H2,google,Czechia,2,0
+2015H2,google,Czechia,126,0.57
+2015H2,google,Bhutan,1,0
+2015H2,google,Brazil,26,0
+2015H2,google,Brazil,912,0.57
+2015H2,google,Norway,1,0
+2015H2,google,Norway,70,0.61
+2015H2,google,Denmark,1,1
+2015H2,google,Denmark,4,0
+2015H2,google,Denmark,56,0.3
+2015H2,google,Vietnam,1,0
+2015H2,google,Kenya,1,0
+2015H2,google,United Kingdom,224,0.95
+2015H2,google,United Kingdom,67,0
+2015H2,google,United Kingdom,3273,0.7
+2015H2,google,Ghana,2,0
+2015H2,google,India,5,0
+2015H2,google,India,8,0
+2015H2,google,India,3260,0.49
+2015H2,google,Maldives,2,1
+2015H2,google,Maldives,2,0
+2015H2,google,Netherlands,2,0
+2015H2,google,Netherlands,18,0
+2015H2,google,Netherlands,208,0.69
+2015H2,google,United States,250,0.74
+2015H2,google,United States,1056,0.72
+2015H2,google,United States,5139,0
+2015H2,google,United States,3716,0.85
+2015H2,google,United States,241,0.92
+2015H2,google,United States,7250,0.76
+2015H2,google,United States,10,1
+2015H2,google,Poland,8,0.75
+2015H2,google,Poland,480,0.34
+2015H2,google,South Korea,2,1
+2015H2,google,South Korea,254,0.39
+2015H2,google,Indonesia,4,0
+2015H2,google,Uruguay,1,0
+2015H2,google,Italy,6,0
+2015H2,google,Italy,897,0.41
+2015H2,google,Nepal,2,0
+2015H2,google,Ecuador,1,0
+2015H2,google,Isle of Man,1,0
+2015H2,google,United Arab Emirates,2,0.5
+2015H2,google,Ukraine,3,0
+2015H2,google,Pakistan,1,0
+2015H2,google,Sweden,1,1
+2015H2,google,Sweden,2,0
+2015H2,google,Sweden,42,0.57
+2015H2,google,Latvia,0,0
+2015H2,google,Portugal,12,0
+2015H2,google,Portugal,587,0.58
+2015H2,google,Austria,30,0.37
+2015H2,google,Dominican Republic,1,0
+2015H2,google,Dominican Republic,1,0
+2015H2,google,Mexico,3,0.33
+2015H2,google,Mexico,156,0.54
+2015H2,google,Sri Lanka,1,0
+2016H1,google,Algeria,1,0
+2016H1,google,Canada,52,0.73
+2016H1,google,Canada,61,0
+2016H1,google,Canada,22,0.23
+2016H1,google,Chile,257,0.42
+2016H1,google,Colombia,11,0.18
+2016H1,google,Colombia,4,0
+2016H1,google,Colombia,27,0
+2016H1,google,Singapore,3,1
+2016H1,google,Singapore,1460,0.66
+2016H1,google,Malta,75,0.6
+2016H1,google,Macau,2,0
+2016H1,google,Georgia,4,0
+2016H1,google,South Africa,2,0.5
+2016H1,google,South Africa,1,0
+2016H1,google,Macedonia (FYROM),7,0
+2016H1,google,Turkey,2,1
+2016H1,google,Turkey,2,0
+2016H1,google,Turkey,388,0
+2016H1,google,Costa Rica,14,0
+2016H1,google,Greece,14,0.64
+2016H1,google,Greece,10,0
+2016H1,google,Greece,33,0.36
+2016H1,google,Hungary,1,0
+2016H1,google,Hungary,166,0
+2016H1,google,Thailand,5,0
+2016H1,google,Lithuania,3,0.67
+2016H1,google,Lithuania,4,0
+2016H1,google,Lithuania,29,0.34
+2016H1,google,Malaysia,2,0
+2016H1,google,Saudi Arabia,8,0
+2016H1,google,Belgium,8,0.38
+2016H1,google,Belgium,13,0
+2016H1,google,Belgium,240,0.73
+2016H1,google,Russia,237,0.07
+2016H1,google,Slovakia,38,0.11
+2016H1,google,Luxembourg,2,0
+2016H1,google,Monaco,1,0
+2016H1,google,Estonia,1,0
+2016H1,google,Estonia,29,0.59
+2016H1,google,Argentina,2,0
+2016H1,google,Argentina,401,0.56
+2016H1,google,Finland,4,0
+2016H1,google,Finland,3,0
+2016H1,google,Finland,38,0.74
+2016H1,google,Serbia,2,0
+2016H1,google,Serbia,1,0
+2016H1,google,Serbia,1,0
+2016H1,google,Cayman Islands,1,0
+2016H1,google,Romania,17,0.47
+2016H1,google,Slovenia,3,0
+2016H1,google,Slovenia,20,0.5
+2016H1,google,Switzerland,5,1
+2016H1,google,Switzerland,5,0
+2016H1,google,Switzerland,68,0.34
+2016H1,google,Taiwan,127,0.54
+2016H1,google,Bangladesh,2,0.5
+2016H1,google,Israel,42,0.52
+2016H1,google,Israel,131,0.53
+2016H1,google,Ireland,31,0
+2016H1,google,Ireland,19,0.16
+2016H1,google,Albania,1,0
+2016H1,google,Bulgaria,5,0
+2016H1,google,Peru,1,0
+2016H1,google,Japan,14,0.29
+2016H1,google,Japan,77,0
+2016H1,google,Japan,196,0.69
+2016H1,google,France,14,0.36
+2016H1,google,France,3,0
+2016H1,google,France,4286,0.6
+2016H1,google,Spain,1,1
+2016H1,google,Spain,12,0
+2016H1,google,Spain,775,0.47
+2016H1,google,Kazakhstan,1,0
+2016H1,google,New Zealand,1,1
+2016H1,google,New Zealand,5,0
+2016H1,google,New Zealand,34,0.59
+2016H1,google,El Salvador,2,0
+2016H1,google,Germany,21,0.52
+2016H1,google,Germany,13,0
+2016H1,google,Germany,8767,0.59
+2016H1,google,Moldova,3,0
+2016H1,google,Australia,7,0.57
+2016H1,google,Australia,78,0
+2016H1,google,Australia,1233,0.68
+2016H1,google,Mauritius,1,0
+2016H1,google,Hong Kong,1,0
+2016H1,google,Hong Kong,162,0.54
+2016H1,google,Czechia,4,1
+2016H1,google,Czechia,9,0
+2016H1,google,Czechia,165,0.58
+2016H1,google,Brazil,1,1
+2016H1,google,Brazil,24,0
+2016H1,google,Brazil,873,0.59
+2016H1,google,Norway,8,0
+2016H1,google,Norway,116,0.68
+2016H1,google,Denmark,1,1
+2016H1,google,Denmark,3,0
+2016H1,google,Denmark,57,0.11
+2016H1,google,Kenya,1,0
+2016H1,google,United Kingdom,258,0.83
+2016H1,google,United Kingdom,71,0
+2016H1,google,United Kingdom,3044,0.69
+2016H1,google,Belarus,1,0
+2016H1,google,India,14,0.36
+2016H1,google,India,12,0
+2016H1,google,India,3438,0.55
+2016H1,google,Maldives,1,0
+2016H1,google,Netherlands,6,0.67
+2016H1,google,Netherlands,21,0
+2016H1,google,Netherlands,262,0.67
+2016H1,google,Philippines,2,0
+2016H1,google,Philippines,1,0
+2016H1,google,Fiji,1,0
+2016H1,google,United States,259,0.76
+2016H1,google,United States,1208,0.73
+2016H1,google,United States,5819,0
+2016H1,google,United States,4246,0.85
+2016H1,google,United States,266,0.93
+2016H1,google,United States,8182,0.76
+2016H1,google,United States,7,1
+2016H1,google,Poland,16,0.5
+2016H1,google,Poland,1,0
+2016H1,google,Poland,481,0.33
+2016H1,google,South Korea,2,0
+2016H1,google,South Korea,2,0
+2016H1,google,South Korea,350,0.4
+2016H1,google,Indonesia,1,0
+2016H1,google,Indonesia,4,0
+2016H1,google,Italy,3,0.33
+2016H1,google,Italy,17,0
+2016H1,google,Italy,1089,0.38
+2016H1,google,Nepal,2,0
+2016H1,google,Ecuador,4,0
+2016H1,google,United Arab Emirates,3,0.67
+2016H1,google,United Arab Emirates,1,0
+2016H1,google,Ukraine,1,0
+2016H1,google,Ukraine,5,0.2
+2016H1,google,Pakistan,1,1
+2016H1,google,Pakistan,7,0
+2016H1,google,Sweden,1,1
+2016H1,google,Sweden,4,0
+2016H1,google,Sweden,81,0.57
+2016H1,google,Latvia,2,0.5
+2016H1,google,Portugal,14,0
+2016H1,google,Portugal,731,0.63
+2016H1,google,Austria,1,1
+2016H1,google,Austria,40,0.43
+2016H1,google,Dominican Republic,1,0
+2016H1,google,Mexico,173,0.6
+2016H2,google,Nigeria,1,1
+2016H2,google,Canada,38,0.79
+2016H2,google,Canada,60,0
+2016H2,google,Canada,16,0.38
+2016H2,google,Chile,2,0
+2016H2,google,Chile,204,0.48
+2016H2,google,Colombia,8,0.38
+2016H2,google,Colombia,3,0
+2016H2,google,Colombia,22,0
+2016H2,google,Singapore,5,0.6
+2016H2,google,Singapore,1080,0.24
+2016H2,google,Malta,64,0.59
+2016H2,google,Georgia,1,0
+2016H2,google,Macedonia (FYROM),1,0
+2016H2,google,Turkey,1,1
+2016H2,google,Turkey,430,0
+2016H2,google,Costa Rica,11,0
+2016H2,google,Greece,13,0.92
+2016H2,google,Greece,9,0
+2016H2,google,Greece,65,0.38
+2016H2,google,Hungary,1,0
+2016H2,google,Hungary,59,0
+2016H2,google,Thailand,3,0
+2016H2,google,Lithuania,3,0
+2016H2,google,Lithuania,35,0.43
+2016H2,google,Malaysia,1,1
+2016H2,google,Malaysia,1,0
+2016H2,google,Cyprus,1,0
+2016H2,google,Belgium,4,0.5
+2016H2,google,Belgium,5,0
+2016H2,google,Belgium,255,0.71
+2016H2,google,Russia,1,0
+2016H2,google,Russia,234,0.15
+2016H2,google,Slovakia,57,0
+2016H2,google,Kosovo,4,1
+2016H2,google,Luxembourg,5,0
+2016H2,google,Estonia,1,0
+2016H2,google,Estonia,1,0
+2016H2,google,Estonia,31,0.68
+2016H2,google,Lebanon,1,0
+2016H2,google,Argentina,3,0
+2016H2,google,Argentina,415,0.6
+2016H2,google,Finland,40,0.75
+2016H2,google,Serbia,3,0.33
+2016H2,google,Serbia,3,0
+2016H2,google,Cayman Islands,1,0
+2016H2,google,Romania,28,0.46
+2016H2,google,Slovenia,1,0
+2016H2,google,Slovenia,17,0.29
+2016H2,google,Switzerland,1,0
+2016H2,google,Switzerland,1,0
+2016H2,google,Switzerland,99,0.39
+2016H2,google,Taiwan,1,0
+2016H2,google,Taiwan,151,0.53
+2016H2,google,Bangladesh,1,1
+2016H2,google,Bangladesh,2,0
+2016H2,google,Israel,72,0.65
+2016H2,google,Israel,137,0.69
+2016H2,google,Ireland,2,0.5
+2016H2,google,Ireland,28,0
+2016H2,google,Ireland,17,0.18
+2016H2,google,Bulgaria,1,0
+2016H2,google,Bulgaria,2,0
+2016H2,google,Peru,2,0
+2016H2,google,Senegal,1,0
+2016H2,google,Bosnia & Herzegovina,2,0
+2016H2,google,Japan,13,0.69
+2016H2,google,Japan,25,0
+2016H2,google,Japan,170,0.88
+2016H2,google,France,18,0.56
+2016H2,google,France,2,0
+2016H2,google,France,4757,0.63
+2016H2,google,Spain,1,1
+2016H2,google,Spain,8,0
+2016H2,google,Spain,728,0.39
+2016H2,google,Croatia,1,0
+2016H2,google,New Zealand,5,0.6
+2016H2,google,New Zealand,1,0
+2016H2,google,New Zealand,29,0.66
+2016H2,google,El Salvador,1,0
+2016H2,google,Germany,27,0.56
+2016H2,google,Germany,14,0
+2016H2,google,Germany,9898,0.45
+2016H2,google,Moldova,3,0
+2016H2,google,Australia,8,0.63
+2016H2,google,Australia,74,0
+2016H2,google,Australia,1399,0.67
+2016H2,google,Hong Kong,1,0
+2016H2,google,Hong Kong,1,0
+2016H2,google,Hong Kong,142,0.56
+2016H2,google,Czechia,1,1
+2016H2,google,Czechia,6,0
+2016H2,google,Czechia,167,0.62
+2016H2,google,Guatemala,2,0
+2016H2,google,Guatemala,1,0
+2016H2,google,Brazil,1,1
+2016H2,google,Brazil,34,0
+2016H2,google,Brazil,1010,0.6
+2016H2,google,Norway,6,0
+2016H2,google,Norway,84,0.82
+2016H2,google,Denmark,1,1
+2016H2,google,Denmark,2,0
+2016H2,google,Denmark,50,0.2
+2016H2,google,Kenya,1,0
+2016H2,google,United Kingdom,280,0.82
+2016H2,google,United Kingdom,60,0
+2016H2,google,United Kingdom,2897,0.7
+2016H2,google,India,9,0.22
+2016H2,google,India,22,0
+2016H2,google,India,3440,0.57
+2016H2,google,Maldives,1,0
+2016H2,google,Netherlands,7,0.86
+2016H2,google,Netherlands,24,0
+2016H2,google,Netherlands,224,0.58
+2016H2,google,Philippines,1,0
+2016H2,google,Philippines,1,0
+2016H2,google,United States,392,0.78
+2016H2,google,United States,1154,0.77
+2016H2,google,United States,5717,0
+2016H2,google,United States,4018,0.85
+2016H2,google,United States,252,0.94
+2016H2,google,United States,7855,0.76
+2016H2,google,United States,11,0.91
+2016H2,google,Poland,24,0.63
+2016H2,google,Poland,3,0
+2016H2,google,Poland,475,0.32
+2016H2,google,South Korea,3,0.33
+2016H2,google,South Korea,357,0.43
+2016H2,google,Indonesia,5,0
+2016H2,google,Uruguay,1,0
+2016H2,google,Italy,1,0
+2016H2,google,Italy,7,0
+2016H2,google,Italy,1033,0.37
+2016H2,google,United Arab Emirates,3,0.33
+2016H2,google,Ukraine,1,0
+2016H2,google,Ukraine,4,0.5
+2016H2,google,Pakistan,9,0
+2016H2,google,Sweden,1,1
+2016H2,google,Sweden,7,0
+2016H2,google,Sweden,111,0.68
+2016H2,google,Latvia,1,0
+2016H2,google,Latvia,2,0
+2016H2,google,Portugal,12,0
+2016H2,google,Portugal,610,0.66
+2016H2,google,Austria,44,0.43
+2016H2,google,Mexico,2,0
+2016H2,google,Mexico,177,0.54
