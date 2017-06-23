@@ -7,6 +7,7 @@
     <title>Meta-report of transparency</title>
     <!--Import Google Icon Font-->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -72,20 +73,13 @@
 
         <div class="col s1 offset-s1">
             <span>Color on land stands for:</span>
-        </div>
-        <div class="input-field col s3" id="landColorType">
-            <input checked name="group_radio_land" class="radioLand"  type="radio" id="requests_radio"/>
-            <label for="requests_radio"># of requests sent</label>
-            <input name="group_radio_land" class="radioLand" type="radio" id="approved_radio"/>
-            <label for="approved_radio"># of requests get approved</label>
-
-        </div>
-        <div class="col s3 offset-">
-            <a class="waves-effect waves-light btn brown lighten-1" href="#modal1">What does this mean</a>
+            <a href="#modal1"><i class="material-icons icon-brown">info_outline</i></a>
             <div id="modal1" class="modal">
                 <div class="modal-content">
                     <h4>Color explanation</h4>
-                    <p>The color level on land indicates how many requests have been sent by the country, or how many requests from a country have been approved by companies. <br></br>The darker the color indicates that more requests have been sent/approved.
+                    <p>The color level on land indicates how many requests have been sent by the country, or how many
+                        requests from a country have been approved by companies. <br></br>The darker the color indicates
+                        that more requests have been sent/approved.
                         The meaning of the color depending on the type you select.</p>
                 </div>
                 <div class="modal-footer">
@@ -93,8 +87,13 @@
                 </div>
             </div>
         </div>
+        <div class="input-field col s3" id="landColorType">
+            <input checked name="group_radio_land" class="radioLand" type="radio" id="requests_radio"/>
+            <label for="requests_radio"># of requests sent</label>
+            <input name="group_radio_land" class="radioLand" type="radio" id="approved_radio"/>
+            <label for="approved_radio"># of requests get approved</label>
 
-
+        </div>
 
     </div>
     <div class="row">
@@ -301,7 +300,6 @@
             svg.selectAll(".focused").classed("focused", focused = false);
 
 
-
             //Globe rotating
 
             (function transition() {
@@ -431,8 +429,8 @@
         let selectedYear = getYearRange();
         let selectedData = [];
 
-        let dataType = getCurrentLandColorType().slice(0, getCurrentLandColorType().length-6);
-        if (dataType === undefined){
+        let dataType = getCurrentLandColorType().slice(0, getCurrentLandColorType().length - 6);
+        if (dataType === undefined) {
             dataType = "requests";
         }
 
@@ -468,7 +466,7 @@
             return d.value.total;
         });
 
-        if (min <= 0){
+        if (min <= 0) {
             min = 1;
         }
 
@@ -479,19 +477,18 @@
         let landColorScale = d3.scaleQuantize().domain([min, Math.log(max)])
             .range(landColorArray);
 
-        d3.select("#defs").selectAll("path.land").style("fill",function (d) {
+        d3.select("#defs").selectAll("path.land").style("fill", function (d) {
             let total = nestedDataDict[d.id];
-            if (total === undefined){
+            if (total === undefined) {
                 return landColorArray[0];
             }
             else {
-                if (total <= 0){
+                if (total <= 0) {
                     total = 1;
                 }
                 return landColorScale(Math.log(total))
             }
         });
-
 
 
     }
