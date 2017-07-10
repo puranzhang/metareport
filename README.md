@@ -1,6 +1,6 @@
 #### Meta report of Transparency
 
-[Click here for the actual visuals](https://puranzhang.me/metareport/). This is a meta analysis based on concept of ethics in transparency; And a data visualization based on transparency  reports provided by Google, Apple, Twitter, etc.
+[Click here (in Chrome for better experience) for the actual visuals](https://puranzhang.me/metareport/). This is a meta analysis based on concept of ethics in transparency; And a data visualization based on transparency  reports provided by Google, Apple, Twitter, etc.
 
 
 
