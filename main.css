@@ -1,54 +1,45 @@
 .land {
-    fill: #8d6e63;
-    stroke: #FFF;
-    stroke-width: 0.7px;
+  fill: #8d6e63;
+  stroke: #FFF;
+  stroke-width: 0.7px;
 }
-
 .land:hover {
-    fill: #33CC33;
-    stroke-width: 1px;
+  fill: #33CC33;
+  stroke-width: 1px;
 }
-
 .focused {
-    fill: #33CC33;
+  fill: #33CC33;
 }
-
 .countryTooltip {
-    position: absolute;
-    display: none;
-    pointer-events: none;
-    background: #fff;
-    padding: 5px;
-    text-align: left;
-    border: solid #ccc 1px;
-    color: #666;
-    font-size: 14px;
-    font-family: "Roboto", sans serif;
+  position: absolute;
+  display: none;
+  pointer-events: none;
+  background: #fff;
+  padding: 5px;
+  text-align: left;
+  border: solid #ccc 1px;
+  color: #666;
+  font-size: 14px;
+  font-family: "Roboto", sans serif;
 }
-
 html {
-    font-family: "Roboto", sans serif;
+  font-family: "Roboto", sans serif;
 }
-
 .svg-container {
-    display: inline-block;
-    position: relative;
-    vertical-align: top;
-    overflow: hidden;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
 }
-
 .svg-content-responsive {
-    display: inline-block;
+  display: inline-block;
 }
-
 i.icon-brown {
-    color: #8d6e63;
+  color: #8d6e63;
 }
-
-[type="radio"]:checked + label::after, .with-gap[type="radio"]:checked + label::after {
-    background-color: #8d6e63;
+[type="radio"]:checked+label::after, .with-gap[type="radio"]:checked+label::after {
+  background-color: #8d6e63;
 }
-
-[type="radio"]:checked + label::after, .with-gap[type="radio"]:checked + label::before, .with-gap[type="radio"]:checked + label::after {
-    border: 2px solid #8d6e63;
+[type="radio"]:checked+label::after, .with-gap[type="radio"]:checked+label::before, .with-gap[type="radio"]:checked+label::after {
+  border: 2px solid #8d6e63;
 }

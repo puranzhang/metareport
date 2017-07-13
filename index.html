@@ -2,664 +2,579 @@
 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
 
-    <title>Meta-report of transparency</title>
-    <!--Import Google Icon Font-->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="https://d3js.org/topojson.v3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-    <link href="https://cdn.rawgit.com/Dogfalo/materialize/master/extras/noUiSlider/nouislider.css" rel="stylesheet">
-
-
-    <link href="main.css" rel="stylesheet">
-
-
+  <title>Meta-report of transparency</title><!--Import Google Icon Font-->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js">
+  </script>
+  <script src="https://d3js.org/d3.v4.min.js">
+  </script>
+  <script src="https://d3js.org/topojson.v3.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js">
+  </script>
+  <link href="https://cdn.rawgit.com/Dogfalo/materialize/master/extras/noUiSlider/nouislider.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
 </head>
 
 <body>
-<div>
-
+  <div>
     <!-- In <body> -->
-    <script src="https://cdn.rawgit.com/Dogfalo/materialize/master/extras/noUiSlider/nouislider.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.1.0/wNumb.min.js"></script>
-    <br></br>
+    <script src="https://cdn.rawgit.com/Dogfalo/materialize/master/extras/noUiSlider/nouislider.min.js">
+    </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.1.0/wNumb.min.js">
+    </script><br>
+    <br>
 
 
     <div class="row">
+      <div class="col s4 offset-s1">
+        <svg class="svg-content" id="defs">
+        <defs>
+          <lineargradient id="gradBlue" x1="0%" x2="100%" y1="0%" y2="0%">
+            <stop offset="0%" style="stop-color:#005C99;stop-opacity:1"></stop>
+            <stop offset="100%" style="stop-color:#0099FF;stop-opacity:1"></stop>
+          </lineargradient>
 
-        <div class="col s4 offset-s1">
-            <svg id="defs" class="svg-content">
-                <defs>
-                    <linearGradient id="gradBlue" x1="0%" y1="0%" x2="100%" y2="0%">
-                        <stop offset="0%" style="stop-color:#005C99;stop-opacity:1"/>
-                        <stop offset="100%" style="stop-color:#0099FF;stop-opacity:1"/>
-                    </linearGradient>
-                    <filter id="glow">
-                        <feColorMatrix type="matrix"
-                                       values=
-                                               "0 0 0 0   0
-                 0 0 0 0.9 0
-                 0 0 0 0.9 0
-                 0 0 0 1   0"/>
-                        <feGaussianBlur stdDeviation="5.5" result="coloredBlur"/>
-                        <feMerge>
-                            <feMergeNode in="coloredBlur"/>
-                            <feMergeNode in="SourceGraphic"/>
-                        </feMerge>
-                    </filter>
-                </defs>
-            </svg>
-        </div>
+          <filter id="glow">
+            <fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0.9 0 0 0 0 0.9 0 0 0 0 1 0"></fecolormatrix>
+            <fegaussianblur result="coloredBlur" stddeviation="5.5"></fegaussianblur>
 
-        <div class="col s6">
-            <canvas id="myChart" width="400" height="400"></canvas>
-        </div>
+            <femerge>
+              <femergenode in="coloredBlur"></femergenode>
+              <femergenode in="SourceGraphic"></femergenode>
+            </femerge>
+          </filter>
+        </defs></svg>
+      </div>
 
 
+      <div class="col s6">
+        <canvas height="400" id="myChart" width="400">
+        </canvas>
+      </div>
     </div>
 
-
-    <div class="row" layout="row">
-
-
-        <div class="col s1 offset-s1">
-            <span>Color on land stands for:</span>
-            <a href="#modal1"><i class="material-icons icon-brown">info_outline</i></a>
-            <div id="modal1" class="modal">
-                <div class="modal-content">
-                    <h4>Color explanation</h4>
-                    <p>The color level on land indicates how many requests have been sent by the country, or how many
-                        requests from a country have been approved by companies. <br></br>The darker the color indicates
-                        that more requests have been sent/approved.
-                        The meaning of the color depending on the type you select.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Got it!</a>
-                </div>
-            </div>
-        </div>
-        <div class="input-field col s3" id="landColorType">
-            <input checked name="group_radio_land" class="radioLand" type="radio" id="requests_radio"/>
-            <label for="requests_radio"># of requests sent</label>
-            <input name="group_radio_land" class="radioLand" type="radio" id="approved_radio"/>
-            <label for="approved_radio"># of requests get approved</label>
-
-        </div>
-
-    </div>
-    <div class="row">
-
-        <div class="col s1 offset-s1">
-            <p>Country: </p>
-        </div>
-
-        <div class="input-field col s3">
-            <select id="countryList">
-                <option value="999" selected>Global</option>
-            </select>
-        </div>
-
-        <div class="col s1">
-            <p>Company: </p>
-        </div>
-
-        <div class="input-field col s5" id="companyList">
-            <input type="checkbox" class="filled-in companyBox" id="apple" checked="checked"/>
-            <label for="apple">Apple</label>
-            <input type="checkbox" class="filled-in companyBox" id="facebook" checked="checked"/>
-            <label for="facebook">Facebook</label>
-            <input type="checkbox" class="filled-in companyBox" id="google" checked="checked"/>
-            <label for="google">Google</label>
-            <input type="checkbox" class="filled-in companyBox" id="microsoft" checked="checked"/>
-            <label for="microsoft">Microsoft</label>
-            <input type="checkbox" class="filled-in companyBox" id="twitter" checked="checked"/>
-            <label for="twitter">Twitter</label>
-        </div>
-
-
-    </div>
 
     <div class="row">
+      <div class="col s1 offset-s1">
+        <span>Color on land stands for:</span> <a href="#modal1"><i class="material-icons icon-brown">info_outline</i></a>
 
-        <div class="col s2 offset-s1">
-            <p>Select a year range: </p>
+        <div class="modal" id="modal1">
+          <div class="modal-content">
+            <h4>Color explanation</h4>
+
+
+            <p>The color level on land indicates how many requests have been sent by the country, or how many requests from a country have been approved by companies.<br>
+            <br>
+            The darker the color indicates that more requests have been sent/approved. The meaning of the color depending on the type you select.</p>
+          </div>
+
+
+          <div class="modal-footer">
+            <a class="modal-action modal-close waves-effect waves-green btn-flat" href="#!">Got it!</a>
+          </div>
         </div>
+      </div>
 
-        <div class="col s8">
-            <div id="yearRange"></div>
-        </div>
 
+      <div class="input-field col s3" id="landColorType">
+        <input checked class="radioLand" id="requests_radio" name="group_radio_land" type="radio"> <label for="requests_radio"># of requests sent</label> <input class="radioLand" id="approved_radio" name="group_radio_land" type="radio"> <label for="approved_radio"># of requests get approved</label>
+      </div>
     </div>
 
-</div>
+
+    <div class="row">
+      <div class="col s1 offset-s1">
+        <p>Country:</p>
+      </div>
 
 
-<script>
-
-    var id2Name, name2id, user_info;
-    let yearSlider = document.getElementById('yearRange');
-    noUiSlider.create(yearSlider, {
-        start: [2009, 2016],
-        range: {
-            'min': 2009,
-            'max': 2016
-        },
-        step: 1,
-        connect: true,
-        orientation: 'horizontal',
-        format: wNumb({
-            decimals: 0,
-            prefix: ''
-        }),
-        pips: {
-            mode: 'count',
-            values: 2016 - 2009 + 1,
-            density: 10
-        }
-    });
+      <div class="input-field col s3">
+        <select id="countryList">
+          <option selected value="999">
+            Global
+          </option>
+        </select>
+      </div>
 
 
-    $(document).ready(function () {
-        $.getJSON("data/name_codes.json", function (data) {
-            $.each(data, function (i, item) {
-                $('#countryList').append($('<option>', {
-                    value: item.id,
-                    text: item.name
-                }));
-            });
-            $('select').material_select();
-            $('.modal').modal();
-        });
-        readData(true);
-    });
-
-    // 3d earth drawing library: http://bl.ocks.org/KoGor/5994804
-    let width = 600,
-        height = 500,
-        sens = 0.25,
-        focused;
-
-    //Setting projection
-
-    let projection = d3.geoOrthographic()
-        .scale(245)
-        .rotate([0, 0])
-        .translate([width / 2, height / 2])
-        .clipAngle(90);
-
-    let path = d3.geoPath()
-        .projection(projection);
-
-    //SVG container
-
-    let svg = d3.select("#defs")
-    //responsive SVG needs these 2 attributes and no width and height attr
-        .attr("preserveAspectRatio", "xMinYMin meet")
-        .attr("viewBox", "0 0 " + width + " " + height)
-        //class to make it responsive
-        .classed("svg-content-responsive", true);
+      <div class="col s1">
+        <p>Company:</p>
+      </div>
 
 
-    //Adding water
-
-    svg.append("path")
-        .datum({type: "Sphere"})
-        .attr("class", "water")
-        .attr("d", path)
-        .attr("filter", "url(#glow)")
-        .attr("fill", "url(#gradBlue)");
+      <div class="input-field col s5" id="companyList">
+        <input checked="checked" class="filled-in companyBox" id="apple" type="checkbox"> <label for="apple">Apple</label> <input checked="checked" class="filled-in companyBox" id="facebook" type="checkbox"> <label for="facebook">Facebook</label> <input checked="checked" class="filled-in companyBox" id="google" type="checkbox"> <label for="google">Google</label> <input checked="checked" class="filled-in companyBox" id="microsoft" type="checkbox"> <label for="microsoft">Microsoft</label> <input checked="checked" class="filled-in companyBox" id="twitter" type="checkbox"> <label for="twitter">Twitter</label>
+      </div>
+    </div>
 
 
-    let countryTooltip = d3.select("body").append("div").attr("class", "countryTooltip");
+    <div class="row">
+      <div class="col s2 offset-s1">
+        <p>Select a year range:</p>
+      </div>
 
 
-    d3.queue()
-        .defer(d3.json, "data/world-110m.json")
-        .defer(d3.tsv, "data/world-110m-country-names.tsv")
-        .await(ready);
+      <div class="col s8">
+        <div id="yearRange">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
 
-    //Main function
+    'use strict';
 
-    function ready(error, world, countryData) {
-
-        let countryById = {},
-            countries = topojson.feature(world, world.objects.countries).features;
-
-        countryData.forEach(function (d) {
-            countryById[d.id] = d.name;
-        });
-
-
-        //Drawing countries on the globe
-
-        var world = svg.selectAll("path.land")
-            .data(countries)
-            .enter().append("path")
-            .attr("class", "land")
-            .attr("d", path)
-
-            //Drag event
-
-            .call(d3.drag()
-                .subject(function () {
-                    let r = projection.rotate();
-                    return {x: r[0] / sens, y: -r[1] / sens};
-                })
-                .on("drag", function () {
-                    let rotate = projection.rotate();
-                    projection.rotate([d3.event.x * sens, -d3.event.y * sens, rotate[2]]);
-                    svg.selectAll("path.land").attr("d", path);
-                    svg.selectAll(".focused").classed("focused", focused = false);
-                }))
-
-            //Mouse events
-            .on("click", function (d) {
-                $('select').material_select('destroy');
-                $("#countryList").val(d.id.toString()).change()
-                $("select").material_select();
-            })
-            .on("mouseover", function (d) {
-                countryTooltip.text(countryById[d.id])
-                    .style("left", (d3.event.pageX + 7) + "px")
-                    .style("top", (d3.event.pageY - 15) + "px")
-                    .style("display", "block")
-                    .style("opacity", 1);
-            })
-            .on("mouseout", function (d) {
-                countryTooltip.style("opacity", 0)
-                    .style("display", "none");
-            })
-            .on("mousemove", function (d) {
-                countryTooltip.style("left", (d3.event.pageX + 7) + "px")
-                    .style("top", (d3.event.pageY - 15) + "px");
-            });
-
-        //Country focus on option select
-
-        $("#countryList").change(function () {
-            readData(false);
-
-            let focusedCountry = country(countries, $("#countryList").val());
-            if (focusedCountry === undefined) {
-                svg.selectAll(".focused").classed("focused", focused = false);
-                return;
-            }
-
-            let rotate = projection.rotate();
-            let p = d3.geoCentroid(focusedCountry);
-
-            svg.selectAll(".focused").classed("focused", focused = false);
-
-
-            //Globe rotating
-
-            (function transition() {
-                d3.transition()
-                    .duration(2500)
-                    .tween("rotate", function () {
-                        let r = d3.interpolate(projection.rotate(), [-p[0], -p[1]]);
-                        return function (t) {
-                            projection.rotate(r(t));
-                            svg.selectAll("path").attr("d", path)
-                                .classed("focused", function (d, i) {
-                                    return d.id === focusedCountry.id ? focused = d : false;
-                                });
-                        };
-                    })
-            })();
-
-        });
-
-
-        function country(cnt, sel) {
-            for (let i = 0, l = cnt.length; i < l; i++) {
-                if (parseInt(cnt[i].id) == parseInt(sel)) {
-                    return cnt[i];
-                }
-            }
-        }
-
+  var id2Name, name2id, user_info;
+  var yearSlider = document.getElementById('yearRange');
+  noUiSlider.create(yearSlider, {
+    start: [2009, 2016],
+    range: {
+        'min': 2009,
+        'max': 2016
+    },
+    step: 1,
+    connect: true,
+    orientation: 'horizontal',
+    format: wNumb({
+        decimals: 0,
+        prefix: ''
+    }),
+    pips: {
+        mode: 'count',
+        values: 2016 - 2009 + 1,
+        density: 10
     }
-</script>
+  });
 
-<script>
-    let colorMap = {
-        "apple": "#d7191c",
-        "facebook": "#fdae61",
-        "google": "#F781BF",
-        "microsoft": "#abdda4",
-        "twitter": "#2b83ba"
-    };
+  $(document).ready(function () {
+    $.getJSON("data/name_codes.json", function (data) {
+        $.each(data, function (i, item) {
+            $('#countryList').append($('<option>', {
+                value: item.id,
+                text: item.name
+            }));
+        });
+        $('select').material_select();
+        $('.modal').modal();
+    });
+    readData(true);
+  });
 
+  // 3d earth drawing library: http://bl.ocks.org/KoGor/5994804
+  var width = 600,
+    height = 500,
+    sens = 0.25,
+    focused = void 0;
 
-    yearSlider.noUiSlider.on('end', function () {
-        readData(true)
+  //Setting projection
+
+  var projection = d3.geoOrthographic().scale(245).rotate([0, 0]).translate([width / 2, height / 2]).clipAngle(90);
+
+  var path = d3.geoPath().projection(projection);
+
+  //SVG container
+
+  var svg = d3.select("#defs"
+  //responsive SVG needs these 2 attributes and no width and height attr
+  ).attr("preserveAspectRatio", "xMinYMin meet").attr("viewBox", "0 0 " + width + " " + height
+  //class to make it responsive
+  ).classed("svg-content-responsive", true);
+
+  //Adding water
+
+  svg.append("path").datum({ type: "Sphere" }).attr("class", "water").attr("d", path).attr("filter", "url(#glow)").attr("fill", "url(#gradBlue)");
+
+  var countryTooltip = d3.select("body").append("div").attr("class", "countryTooltip");
+
+  d3.queue().defer(d3.json, "data/world-110m.json").defer(d3.tsv, "data/world-110m-country-names.tsv").await(ready);
+
+  //Main function
+
+  function ready(error, world, countryData) {
+
+    var countryById = {},
+        countries = topojson.feature(world, world.objects.countries).features;
+
+    countryData.forEach(function (d) {
+        countryById[d.id] = d.name;
     });
 
-    // track original value, if user tries to un-check all value, warn user
-    let checkedCompanyBefore;
-    $("#companyList").on("mouseover", function () {
-        checkedCompanyBefore = getCompanyList();
-    }).change(function () {
-        let checkedCompanyAfter = getCompanyList();
-        if (checkedCompanyAfter.length === 0) {
-            alert("Select at least one company to compare.");
-            $("#" + checkedCompanyBefore[0]).prop("checked", true)
-        }
+    //Drawing countries on the globe
+
+    var world = svg.selectAll("path.land").data(countries).enter().append("path").attr("class", "land").attr("d", path
+
+    //Drag event
+
+    ).call(d3.drag().subject(function () {
+        var r = projection.rotate();
+        return { x: r[0] / sens, y: -r[1] / sens };
+    }).on("drag", function () {
+        var rotate = projection.rotate();
+        projection.rotate([d3.event.x * sens, -d3.event.y * sens, rotate[2]]);
+        svg.selectAll("path.land").attr("d", path);
+        svg.selectAll(".focused").classed("focused", focused = false);
+    })
+
+    //Mouse events
+    ).on("click", function (d) {
+        $('select').material_select('destroy');
+        $("#countryList").val(d.id.toString()).change();
+        $("select").material_select();
+    }).on("mouseover", function (d) {
+        countryTooltip.text(countryById[d.id]).style("left", d3.event.pageX + 7 + "px").style("top", d3.event.pageY - 15 + "px").style("display", "block").style("opacity", 1);
+    }).on("mouseout", function (d) {
+        countryTooltip.style("opacity", 0).style("display", "none");
+    }).on("mousemove", function (d) {
+        countryTooltip.style("left", d3.event.pageX + 7 + "px").style("top", d3.event.pageY - 15 + "px");
+    });
+
+    //Country focus on option select
+
+    $("#countryList").change(function () {
         readData(false);
-    });
 
-    $("#landColorType").change(function () {
-        colorLand();
-    });
-
-    function getCompanyList() {
-        let companyList = [];
-        $.each($(".companyBox"), function (box) {
-            if ($(this).is(":checked") === true) {
-                companyList.push($(this).attr("id"))
-            }
-        });
-        return companyList;
-    }
-
-    function getYearRange() {
-        let yearRange = [];
-
-        let min = parseInt(yearSlider.noUiSlider.get()[0]);
-        let max = parseInt(yearSlider.noUiSlider.get()[1]);
-
-        for (let i = min; i <= max; i++) {
-            yearRange.push(i.toString())
+        var focusedCountry = country(countries, $("#countryList").val());
+        if (focusedCountry === undefined) {
+            svg.selectAll(".focused").classed("focused", focused = false);
+            return;
         }
 
-        return yearRange;
-    }
+        var rotate = projection.rotate();
+        var p = d3.geoCentroid(focusedCountry);
 
-    function getCountry() {
-        return $("#countryList").val();
-    }
+        svg.selectAll(".focused").classed("focused", focused = false);
 
-    function getCurrentLandColorType() {
-        return $('input[name=group_radio_land]:checked').attr("id");
-    }
+        //Globe rotating
 
-    function readData(toColorLand) {
-        if (id2Name === undefined || user_info === undefined) {
-            jQuery.when(
-                $.getJSON("data/id2name.json", function (data) {
-                    id2Name = data;
-                }),
-                $.getJSON("data/user_info.json", function (data) {
-                    user_info = data;
-                }),
-                $.getJSON("data/name2id.json", function (data) {
-                    name2id = data;
-                })
-            ).then(function () {
-                filterData();
-                if (toColorLand === true) {
-                    colorLand()
-                }
+        (function transition() {
+            d3.transition().duration(2500).tween("rotate", function () {
+                var r = d3.interpolate(projection.rotate(), [-p[0], -p[1]]);
+                return function (t) {
+                    projection.rotate(r(t));
+                    svg.selectAll("path").attr("d", path).classed("focused", function (d, i) {
+                        return d.id === focusedCountry.id ? focused = d : false;
+                    });
+                };
             });
+        })();
+    });
+
+    function country(cnt, sel) {
+        for (var i = 0, l = cnt.length; i < l; i++) {
+            if (parseInt(cnt[i].id) == parseInt(sel)) {
+                return cnt[i];
+            }
         }
-        else {
+    }
+  }
+  </script> 
+  <script>
+    "use strict";
+
+  var colorMap = {
+    "apple": "#d7191c",
+    "facebook": "#fdae61",
+    "google": "#F781BF",
+    "microsoft": "#abdda4",
+    "twitter": "#2b83ba"
+  };
+
+  yearSlider.noUiSlider.on('end', function () {
+    readData(true);
+  });
+
+  // track original value, if user tries to un-check all value, warn user
+  var checkedCompanyBefore = void 0;
+  $("#companyList").on("mouseover", function () {
+    checkedCompanyBefore = getCompanyList();
+  }).change(function () {
+    var checkedCompanyAfter = getCompanyList();
+    if (checkedCompanyAfter.length === 0) {
+        alert("Select at least one company to compare.");
+        $("#" + checkedCompanyBefore[0]).prop("checked", true);
+    }
+    readData(false);
+  });
+
+  $("#landColorType").change(function () {
+    colorLand();
+  });
+
+  function getCompanyList() {
+    var companyList = [];
+    $.each($(".companyBox"), function (box) {
+        if ($(this).is(":checked") === true) {
+            companyList.push($(this).attr("id"));
+        }
+    });
+    return companyList;
+  }
+
+  function getYearRange() {
+    var yearRange = [];
+
+    var min = parseInt(yearSlider.noUiSlider.get()[0]);
+    var max = parseInt(yearSlider.noUiSlider.get()[1]);
+
+    for (var i = min; i <= max; i++) {
+        yearRange.push(i.toString());
+    }
+
+    return yearRange;
+  }
+
+  function getCountry() {
+    return $("#countryList").val();
+  }
+
+  function getCurrentLandColorType() {
+    return $('input[name=group_radio_land]:checked').attr("id");
+  }
+
+  function readData(toColorLand) {
+    if (id2Name === undefined || user_info === undefined) {
+        jQuery.when($.getJSON("data/id2name.json", function (data) {
+            id2Name = data;
+        }), $.getJSON("data/user_info.json", function (data) {
+            user_info = data;
+        }), $.getJSON("data/name2id.json", function (data) {
+            name2id = data;
+        })).then(function () {
             filterData();
             if (toColorLand === true) {
-                colorLand()
-            }
-        }
-
-    }
-
-    function colorLand() {
-        if (id2Name === undefined || user_info === undefined || name2id === undefined) {
-            return;
-        }
-
-        let selectedYear = getYearRange();
-        let selectedData = [];
-
-        let dataType = getCurrentLandColorType().slice(0, getCurrentLandColorType().length - 6);
-        if (dataType === undefined) {
-            dataType = "requests";
-        }
-
-        $.each(user_info, function (index, info) {
-            if ($.inArray(info["time"].slice(0, 4), selectedYear)) {
-                let singlePoint = {};
-                singlePoint["id"] = name2id[info["country"]];
-                singlePoint[dataType] = info[dataType];
-                selectedData.push(singlePoint);
+                colorLand();
             }
         });
+    } else {
+        filterData();
+        if (toColorLand === true) {
+            colorLand();
+        }
+    }
+  }
 
+  function colorLand() {
+    if (id2Name === undefined || user_info === undefined || name2id === undefined) {
+        return;
+    }
 
-        let nestedData = d3.nest()
-            .key(function (d) {
-                return d.id;
-            }).rollup(function (leaves) {
-                return {
-                    "total": d3.sum(leaves, function (d) {
-                        return parseInt(d[dataType]);
-                    })
-                }
+    var selectedYear = getYearRange();
+    var selectedData = [];
+
+    var dataType = getCurrentLandColorType().slice(0, getCurrentLandColorType().length - 6);
+    if (dataType === undefined) {
+        dataType = "requests";
+    }
+
+    $.each(user_info, function (index, info) {
+        if ($.inArray(info["time"].slice(0, 4), selectedYear)) {
+            var singlePoint = {};
+            singlePoint["id"] = name2id[info["country"]];
+            singlePoint[dataType] = info[dataType];
+            selectedData.push(singlePoint);
+        }
+    });
+
+    var nestedData = d3.nest().key(function (d) {
+        return d.id;
+    }).rollup(function (leaves) {
+        return {
+            "total": d3.sum(leaves, function (d) {
+                return parseInt(d[dataType]);
             })
-            .entries(selectedData);
-
-        let nestedDataDict = {};
-        nestedData.forEach(function (d) {
-            nestedDataDict[d.key] = d.value.total;
-        });
-
-
-        let min = d3.min(nestedData, function (d) {
-            return d.value.total;
-        });
-
-        if (min <= 0) {
-            min = 1;
-        }
-
-        let max = d3.max(nestedData, function (d) {
-            return d.value.total;
-        });
-        let landColorArray = ["#bcaaa4", "#a1887f", "#8d6e63", " #795548", "#6d4c41 ", "#5d4037"];
-        let landColorScale = d3.scaleQuantize().domain([min, Math.log(max)])
-            .range(landColorArray);
-
-        d3.select("#defs").selectAll("path.land").style("fill", function (d) {
-            let total = nestedDataDict[d.id];
-            if (total === undefined) {
-                return landColorArray[0];
-            }
-            else {
-                if (total <= 0) {
-                    total = 1;
-                }
-                return landColorScale(Math.log(total))
-            }
-        });
-
-
-    }
-
-    function filterData() {
-        if (id2Name === undefined || user_info === undefined) {
-            return;
-        }
-
-
-        let selectedCountry = id2Name[getCountry()];
-        let selectedYear = getYearRange();
-        let selectedCompany = getCompanyList();
-        let linePoints = calculateSelected("requests", []);  // group by company first
-        linePoints = linePoints.concat(calculateSelected("approved", [5, 5]));
-
-
-        // dataType: consistent with json
-        // linetype: see mdn  https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash
-        function calculateSelected(dataType, linetype) {
-            let selected = [];
-            if (selectedCountry === "Global") {
-                $.each(user_info, function (index, info) {
-                    if ($.inArray(info["time"].slice(0, 4), selectedYear) >= 0 &&
-                        $.inArray(info["company"], selectedCompany) >= 0) {
-
-                        let singlePoint = {};
-                        singlePoint["time"] = info["time"].slice(0, 4);
-                        singlePoint[dataType] = info[dataType];
-                        singlePoint["company"] = info["company"] + " " + dataType;
-                        selected.push(singlePoint);
-                    }
-                });
-            }
-            else {
-                $.each(user_info, function (index, info) {
-                    if ($.inArray(info["time"].slice(0, 4), selectedYear) >= 0 &&
-                        $.inArray(info["company"], selectedCompany) >= 0 &&
-                        info["country"] === selectedCountry) {
-
-                        let singlePoint = {};
-                        singlePoint["time"] = info["time"].slice(0, 4);
-                        singlePoint[dataType] = info[dataType];
-                        singlePoint["company"] = info["company"] + " " + dataType;
-                        selected.push(singlePoint);
-                    }
-                });
-            }
-
-
-            let nestedData = d3.nest()
-                .key(function (d) {
-                    return d.company;
-                }).key(function (d) {
-                    return d.time;
-                }).rollup(function (leaves) {
-                    return {
-                        "total": d3.sum(leaves, function (d) {
-                            return parseInt(d[dataType]);
-                        })
-                    }
-                })
-                .entries(selected);
-
-            let linePoints = [];
-            $.each(nestedData, function (index, companyData) {
-                let singleLine = {};
-                singleLine.label = companyData.key;
-                let companyName = singleLine.label.slice(0, singleLine.label.length - dataType.length - 1);
-                singleLine.fill = false;
-                singleLine.data = [];
-                singleLine.borderColor = colorMap[companyName];
-                singleLine.backgroundColor = colorMap[companyName];
-                singleLine.spanGaps = false;
-                singleLine.borderDash = linetype;
-
-                // a hack to solve the problem: tooltip inconsistent with x axis label
-                // reason: chartjs read points sequentially, assuming that they are in the order of the category
-                // if some points is missing from the line, but dataset is still read in sequence
-                // chartjs WON'T skip tooltip index for these points
-                // i.e. [1,2] toolip:1 [3,2] tooltip:2  <-- should be 3!
-                // here we create dummy points and use spanGaps==false to avoid this problem
-                let dataStartYear = parseInt(companyData.values[0].key); // year when company start to provide data
-
-                for (let i = parseInt(selectedYear); i < dataStartYear; i++) {
-                    pushPoint(i.toString(), NaN, singleLine)
-                }
-
-                let previousYear = parseInt(companyData.values[0].key) - 1;
-                $.each(companyData.values, function (index_inner, yearlyData) {
-                    if (parseInt(yearlyData.key) - previousYear > 1) {
-                        for (let i = previousYear + 1; i < parseInt(yearlyData.key); i++) {
-                            pushPoint(i.toString(), NaN, singleLine)
-                        }
-                    }
-
-                    pushPoint(yearlyData.key, yearlyData.value.total, singleLine);
-                    previousYear = parseInt(yearlyData.key);
-                });
-                linePoints.push(singleLine)
-            });
-
-            return linePoints;
-        }
-
-        function pushPoint(xData, yData, line) {
-            let singlePoint = {};
-            singlePoint.x = xData;
-            singlePoint.y = yData;
-            line.data.push(singlePoint);
-        }
-
-
-        let chartTitle = {
-            display: true,
-            text: "chart line"
         };
-        if (selectedCountry !== undefined) {
-            chartTitle.text = "requests change from " + selectedYear[0] +
-                " to " + selectedYear[selectedYear.length - 1] +
-                " in " + selectedCountry;
-        }
-        else {
-            chartTitle.text = "No data recorded for this country or area";
-            chartTitle.fontColor = "#EE6E73"
-        }
+    }).entries(selectedData);
 
-        drawLine(selectedYear, linePoints, chartTitle);
+    var nestedDataDict = {};
+    nestedData.forEach(function (d) {
+        nestedDataDict[d.key] = d.value.total;
+    });
 
+    var min = d3.min(nestedData, function (d) {
+        return d.value.total;
+    });
+
+    if (min <= 0) {
+        min = 1;
     }
 
-    let myChart;
-    function drawLine(years, pointsData, chartTitle) {
-        if (myChart !== undefined) {
-            myChart.destroy();
-        }
-        myChart = new Chart($("#myChart"), {
-            type: 'line',
-            data: {
-                labels: years,
-                datasets: pointsData
-            },
-            options: {
-                title: chartTitle,
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            fontColor: "#9E9E9E",
-                        }
-                    }],
-                    xAxes: [{
-                        ticks: {
-                            fontColor: "#9E9E9E",
-                            defaultFontFamily: "Roboto"
-                        }
-                    }]
-                },
-                tooltips: {
-                    mode: 'index',
-                    intersect: false,
-                },
-                responsive: true,
-                maintainAspectRatio: false
+    var max = d3.max(nestedData, function (d) {
+        return d.value.total;
+    });
+    var landColorArray = ["#bcaaa4", "#a1887f", "#8d6e63", " #795548", "#6d4c41 ", "#5d4037"];
+    var landColorScale = d3.scaleQuantize().domain([min, Math.log(max)]).range(landColorArray);
+
+    d3.select("#defs").selectAll("path.land").style("fill", function (d) {
+        var total = nestedDataDict[d.id];
+        if (total === undefined) {
+            return landColorArray[0];
+        } else {
+            if (total <= 0) {
+                total = 1;
             }
-        });
+            return landColorScale(Math.log(total));
+        }
+    });
+  }
+
+  function filterData() {
+    if (id2Name === undefined || user_info === undefined) {
+        return;
     }
 
+    var selectedCountry = id2Name[getCountry()];
+    var selectedYear = getYearRange();
+    var selectedCompany = getCompanyList();
+    var linePoints = calculateSelected("requests", []); // group by company first
+    linePoints = linePoints.concat(calculateSelected("approved", [5, 5]));
 
-</script>
+    // dataType: consistent with json
+    // linetype: see mdn  https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash
+    function calculateSelected(dataType, linetype) {
+        var selected = [];
+        if (selectedCountry === "Global") {
+            $.each(user_info, function (index, info) {
+                if ($.inArray(info["time"].slice(0, 4), selectedYear) >= 0 && $.inArray(info["company"], selectedCompany) >= 0) {
+
+                    var singlePoint = {};
+                    singlePoint["time"] = info["time"].slice(0, 4);
+                    singlePoint[dataType] = info[dataType];
+                    singlePoint["company"] = info["company"] + " " + dataType;
+                    selected.push(singlePoint);
+                }
+            });
+        } else {
+            $.each(user_info, function (index, info) {
+                if ($.inArray(info["time"].slice(0, 4), selectedYear) >= 0 && $.inArray(info["company"], selectedCompany) >= 0 && info["country"] === selectedCountry) {
+
+                    var singlePoint = {};
+                    singlePoint["time"] = info["time"].slice(0, 4);
+                    singlePoint[dataType] = info[dataType];
+                    singlePoint["company"] = info["company"] + " " + dataType;
+                    selected.push(singlePoint);
+                }
+            });
+        }
+
+        var nestedData = d3.nest().key(function (d) {
+            return d.company;
+        }).key(function (d) {
+            return d.time;
+        }).rollup(function (leaves) {
+            return {
+                "total": d3.sum(leaves, function (d) {
+                    return parseInt(d[dataType]);
+                })
+            };
+        }).entries(selected);
+
+        var linePoints = [];
+        $.each(nestedData, function (index, companyData) {
+            var singleLine = {};
+            singleLine.label = companyData.key;
+            var companyName = singleLine.label.slice(0, singleLine.label.length - dataType.length - 1);
+            singleLine.fill = false;
+            singleLine.data = [];
+            singleLine.borderColor = colorMap[companyName];
+            singleLine.backgroundColor = colorMap[companyName];
+            singleLine.spanGaps = false;
+            singleLine.borderDash = linetype;
+
+            // a hack to solve the problem: tooltip inconsistent with x axis label
+            // reason: chartjs read points sequentially, assuming that they are in the order of the category
+            // if some points is missing from the line, but dataset is still read in sequence
+            // chartjs WON'T skip tooltip index for these points
+            // i.e. [1,2] toolip:1 [3,2] tooltip:2  <-- should be 3!
+            // here we create dummy points and use spanGaps==false to avoid this problem
+            var dataStartYear = parseInt(companyData.values[0].key); // year when company start to provide data
+
+            for (var i = parseInt(selectedYear); i < dataStartYear; i++) {
+                pushPoint(i.toString(), NaN, singleLine);
+            }
+
+            var previousYear = parseInt(companyData.values[0].key) - 1;
+            $.each(companyData.values, function (index_inner, yearlyData) {
+                if (parseInt(yearlyData.key) - previousYear > 1) {
+                    for (var _i = previousYear + 1; _i < parseInt(yearlyData.key); _i++) {
+                        pushPoint(_i.toString(), NaN, singleLine);
+                    }
+                }
+
+                pushPoint(yearlyData.key, yearlyData.value.total, singleLine);
+                previousYear = parseInt(yearlyData.key);
+            });
+            linePoints.push(singleLine);
+        });
+
+        return linePoints;
+    }
+
+    function pushPoint(xData, yData, line) {
+        var singlePoint = {};
+        singlePoint.x = xData;
+        singlePoint.y = yData;
+        line.data.push(singlePoint);
+    }
+
+    var chartTitle = {
+        display: true,
+        text: "chart line"
+    };
+    if (selectedCountry !== undefined) {
+        chartTitle.text = "requests change from " + selectedYear[0] + " to " + selectedYear[selectedYear.length - 1] + " in " + selectedCountry;
+    } else {
+        chartTitle.text = "No data recorded for this country or area";
+        chartTitle.fontColor = "#EE6E73";
+    }
+
+    drawLine(selectedYear, linePoints, chartTitle);
+  }
+
+  var myChart = void 0;
+  function drawLine(years, pointsData, chartTitle) {
+    if (myChart !== undefined) {
+        myChart.destroy();
+    }
+    myChart = new Chart($("#myChart"), {
+        type: 'line',
+        data: {
+            labels: years,
+            datasets: pointsData
+        },
+        options: {
+            title: chartTitle,
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        fontColor: "#9E9E9E"
+                    }
+                }],
+                xAxes: [{
+                    ticks: {
+                        fontColor: "#9E9E9E",
+                        defaultFontFamily: "Roboto"
+                    }
+                }]
+            },
+            tooltips: {
+                mode: 'index',
+                intersect: false
+            },
+            responsive: true,
+            maintainAspectRatio: false
+        }
+    });
+  }
 
 
+  </script>
 </body>
-
 </html>
